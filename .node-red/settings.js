@@ -398,7 +398,7 @@ module.exports = {
 
         projects: {
             /** To enable the Projects feature, set this value to true */
-            enabled: false,
+            enabled: true,
             workflow: {
                 /** Set the default projects workflow mode.
                  *  - manual - you must manually commit changes
@@ -415,6 +415,7 @@ module.exports = {
              * As of Node-RED V3, this defaults to "monaco", but can be set to "ace" if desired
              */
             lib: "monaco",
+            //lib: "ace",
             options: {
                 /** The follow options only apply if the editor is set to "monaco"
                  *

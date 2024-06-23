@@ -128,3 +128,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Home Verzeichniss
+.Xauthority
+.bash*
+.config
+.font*
+.hist*
+.less*
+.local
+.pki
+.profile
+.sudo*
+.vnc
+.xsession*
+.wget*
+_*
+
+
+# pekaway
+pekaway/nrbackups/*
+pekaway/userdata/*
+pekaway/extRelay*
+pekaway/mcpinput*
+.node-red/*.backup
