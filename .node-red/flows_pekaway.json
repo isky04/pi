@@ -2949,6 +2949,17 @@
         "className": ""
     },
     {
+        "id": "7e7d14002ec520fc",
+        "type": "ui_group",
+        "name": "extRelays",
+        "tab": "ce4b4d8e84b26d99",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "bb0abe7e.248eb",
         "type": "function",
         "z": "1f780f8f.dbcd5",
@@ -2997,7 +3008,8 @@
                 "71e76301.9a03bc",
                 "cb58f8fd7638bcad",
                 "73133552bf558250",
-                "e88d437867a17dad"
+                "e88d437867a17dad",
+                "fc2cf471ea52c86f"
             ]
         ]
     },
@@ -3179,7 +3191,7 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
+        "x": 930,
         "y": 640,
         "wires": [
             [
@@ -3199,8 +3211,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 680,
+        "x": 930,
+        "y": 670,
         "wires": [
             [
                 "8c200c55.44ac"
@@ -3219,8 +3231,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 720,
+        "x": 930,
+        "y": 700,
         "wires": [
             [
                 "7ea32a4e.584854"
@@ -3239,8 +3251,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 760,
+        "x": 930,
+        "y": 730,
         "wires": [
             [
                 "f3703803.f35e48"
@@ -3259,8 +3271,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 800,
+        "x": 930,
+        "y": 760,
         "wires": [
             [
                 "689aa7cb.2b4bf8"
@@ -3279,8 +3291,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 840,
+        "x": 930,
+        "y": 790,
         "wires": [
             [
                 "3995db45.c47ce4"
@@ -3299,8 +3311,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 920,
+        "x": 930,
+        "y": 850,
         "wires": [
             [
                 "4275d2e2.10131c"
@@ -3319,8 +3331,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 880,
+        "x": 930,
+        "y": 820,
         "wires": [
             [
                 "b4954b5.80b80b8"
@@ -3344,8 +3356,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 534,
-        "y": 592,
+        "x": 500,
+        "y": 610,
         "wires": [
             [
                 "3a9b9ea5.0a4972",
@@ -3374,7 +3386,8 @@
                 "36c5ccc88d0205ae",
                 "e9dcf377ec0880b3",
                 "58df22e0c28bc22a",
-                "f35de2762abdeee0"
+                "f35de2762abdeee0",
+                "6d55d8a67c4a486f"
             ]
         ]
     },
@@ -3389,7 +3402,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
+        "x": 1110,
         "y": 640,
         "wires": [
             []
@@ -3403,8 +3416,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Ntwo\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 680,
+        "x": 1110,
+        "y": 670,
         "wires": [
             []
         ]
@@ -3417,8 +3430,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nthree\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 720,
+        "x": 1110,
+        "y": 700,
         "wires": [
             []
         ]
@@ -3431,8 +3444,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nfour\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 760,
+        "x": 1110,
+        "y": 730,
         "wires": [
             []
         ]
@@ -3445,8 +3458,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nfive\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 800,
+        "x": 1110,
+        "y": 760,
         "wires": [
             []
         ]
@@ -3459,8 +3472,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nsix\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 840,
+        "x": 1110,
+        "y": 790,
         "wires": [
             []
         ]
@@ -3473,8 +3486,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nseven\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 880,
+        "x": 1110,
+        "y": 820,
         "wires": [
             []
         ]
@@ -3487,8 +3500,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Neight\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 920,
+        "x": 1110,
+        "y": 850,
         "wires": [
             []
         ]
@@ -3579,7 +3592,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1600,
-        "y": 680,
+        "y": 670,
         "wires": [
             [
                 "e189b915.9ca968"
@@ -3599,7 +3612,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1600,
-        "y": 760,
+        "y": 730,
         "wires": [
             [
                 "fe0f6dc5.83424"
@@ -3619,7 +3632,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1600,
-        "y": 720,
+        "y": 700,
         "wires": [
             [
                 "f94c98b3.80d0d8"
@@ -3652,7 +3665,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1810,
-        "y": 680,
+        "y": 670,
         "wires": [
             []
         ]
@@ -3666,7 +3679,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1810,
-        "y": 720,
+        "y": 700,
         "wires": [
             []
         ]
@@ -3680,7 +3693,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1810,
-        "y": 760,
+        "y": 730,
         "wires": [
             []
         ]
@@ -3870,8 +3883,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1040,
+        "x": 940,
+        "y": 940,
         "wires": [
             [
                 "5956311.74dbcd"
@@ -3890,8 +3903,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1080,
+        "x": 940,
+        "y": 970,
         "wires": [
             [
                 "f8448ec2.bf3f5"
@@ -3910,8 +3923,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1120,
+        "x": 940,
+        "y": 1000,
         "wires": [
             [
                 "a53afab2.319868"
@@ -3930,8 +3943,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1160,
+        "x": 940,
+        "y": 1030,
         "wires": [
             [
                 "7cc94b6.5dd00b4"
@@ -3949,8 +3962,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1040,
+        "x": 1130,
+        "y": 940,
         "wires": [
             []
         ]
@@ -3963,8 +3976,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"NWtwo\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 1080,
+        "x": 1130,
+        "y": 970,
         "wires": [
             []
         ]
@@ -3977,8 +3990,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"NWthree\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 1120,
+        "x": 1130,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -3991,8 +4004,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"NWfour\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 1160,
+        "x": 1130,
+        "y": 1030,
         "wires": [
             []
         ]
@@ -4009,8 +4022,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1000,
+        "x": 940,
+        "y": 910,
         "wires": [
             [
                 "a7b55aab.700688"
@@ -4029,8 +4042,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 960,
+        "x": 930,
+        "y": 880,
         "wires": [
             [
                 "23db853c.100dfa"
@@ -4045,8 +4058,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nnine\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 960,
+        "x": 1110,
+        "y": 880,
         "wires": [
             []
         ]
@@ -4059,8 +4072,8 @@
         "func": " var str = msg.payload;\n\n global.set(\"Nten\", str);\n  \n ",
         "outputs": 1,
         "noerr": 0,
-        "x": 1100,
-        "y": 1000,
+        "x": 1130,
+        "y": 910,
         "wires": [
             []
         ]
@@ -4956,8 +4969,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 830,
-        "y": 1380,
+        "x": 920,
+        "y": 1190,
         "wires": [
             [
                 "ed4a9e392e2f8b61"
@@ -4975,8 +4988,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1380,
+        "x": 1170,
+        "y": 1190,
         "wires": [
             [
                 "5741e6776c25282c"
@@ -4995,8 +5008,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 851,
-        "y": 1211,
+        "x": 940,
+        "y": 1060,
         "wires": [
             [
                 "570cffdb99b158ae"
@@ -5015,8 +5028,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 851,
-        "y": 1251,
+        "x": 940,
+        "y": 1090,
         "wires": [
             [
                 "0b84b35d019401ea"
@@ -5035,8 +5048,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 851,
-        "y": 1291,
+        "x": 940,
+        "y": 1120,
         "wires": [
             [
                 "fb92fca3b8c3ce59"
@@ -5055,8 +5068,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 850,
-        "y": 1340,
+        "x": 940,
+        "y": 1150,
         "wires": [
             [
                 "5794b81b612420cb"
@@ -5074,8 +5087,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1101,
-        "y": 1211,
+        "x": 1130,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -5091,8 +5104,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1101,
-        "y": 1251,
+        "x": 1130,
+        "y": 1090,
         "wires": [
             []
         ]
@@ -5108,8 +5121,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1101,
-        "y": 1291,
+        "x": 1130,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -5125,8 +5138,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1340,
+        "x": 1130,
+        "y": 1150,
         "wires": [
             []
         ]
@@ -5894,8 +5907,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 830,
-        "y": 1420,
+        "x": 920,
+        "y": 1230,
         "wires": [
             [
                 "3cad05fe6ab03550"
@@ -5913,8 +5926,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1420,
+        "x": 1170,
+        "y": 1230,
         "wires": [
             []
         ]
@@ -5928,11 +5941,12 @@
             "97c714fcb7767c8f",
             "f00785041faf7241"
         ],
-        "x": 389,
-        "y": 592,
+        "x": 255,
+        "y": 260,
         "wires": [
             [
-                "72204697.5e7d18"
+                "72204697.5e7d18",
+                "fc2cf471ea52c86f"
             ]
         ]
     },
@@ -5998,8 +6012,8 @@
         "links": [
             "75c69cd8e59757aa"
         ],
-        "x": 1215,
-        "y": 1380,
+        "x": 1285,
+        "y": 1190,
         "wires": []
     },
     {
@@ -6014,8 +6028,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1500,
+        "x": 1170,
+        "y": 1310,
         "wires": [
             [
                 "15d0f3207d03c2e2"
@@ -6034,8 +6048,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 870,
-        "y": 1500,
+        "x": 960,
+        "y": 1310,
         "wires": [
             [
                 "9a12b5a4245f0b37"
@@ -7048,7 +7062,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1620,
-        "y": 800,
+        "y": 760,
         "wires": [
             [
                 "09a60d13659e6052"
@@ -7087,7 +7101,7 @@
         "finalize": "",
         "libs": [],
         "x": 1810,
-        "y": 800,
+        "y": 760,
         "wires": [
             []
         ]
@@ -7176,8 +7190,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 870,
-        "y": 1540,
+        "x": 960,
+        "y": 1350,
         "wires": [
             [
                 "440f7a9f89b2f7c0"
@@ -7195,8 +7209,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1540,
+        "x": 1170,
+        "y": 1350,
         "wires": [
             [
                 "509babed283534d1"
@@ -7212,8 +7226,8 @@
         "links": [
             "12ca99015ff02121"
         ],
-        "x": 1215,
-        "y": 1540,
+        "x": 1285,
+        "y": 1350,
         "wires": []
     },
     {
@@ -7225,8 +7239,8 @@
         "links": [
             "a578e9ea280452d0"
         ],
-        "x": 1215,
-        "y": 1500,
+        "x": 1285,
+        "y": 1310,
         "wires": []
     },
     {
@@ -7304,8 +7318,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 1580,
+        "x": 930,
+        "y": 1390,
         "wires": [
             [
                 "0f61efeb44829727"
@@ -7323,8 +7337,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1580,
+        "x": 1170,
+        "y": 1390,
         "wires": [
             [
                 "2d5a0a61997ce3d1"
@@ -7340,8 +7354,8 @@
         "links": [
             "f32f2c0c499aed04"
         ],
-        "x": 1215,
-        "y": 1580,
+        "x": 1285,
+        "y": 1390,
         "wires": []
     },
     {
@@ -7355,8 +7369,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 840,
-        "y": 1460,
+        "x": 930,
+        "y": 1270,
         "wires": [
             [
                 "4048b584bfb0d3a4"
@@ -7374,8 +7388,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1460,
+        "x": 1170,
+        "y": 1270,
         "wires": [
             []
         ]
@@ -7580,8 +7594,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 860,
-        "y": 1620,
+        "x": 950,
+        "y": 1430,
         "wires": [
             [
                 "e563624fb42496e1"
@@ -7600,8 +7614,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 860,
-        "y": 1660,
+        "x": 940,
+        "y": 1470,
         "wires": [
             [
                 "bfa11a2c8211930e"
@@ -7619,8 +7633,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1620,
+        "x": 1170,
+        "y": 1430,
         "wires": [
             []
         ]
@@ -7636,8 +7650,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 1660,
+        "x": 1170,
+        "y": 1470,
         "wires": [
             []
         ]
@@ -7866,6 +7880,672 @@
         "y": 300,
         "wires": [],
         "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "8029d61c1987fb86",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "boot true",
+        "func": "flow.set(\"boot\",true);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 950,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46bce56f6f2abdfe",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name1",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1000,
+        "wires": [
+            [
+                "35acb28c0db37eb0"
+            ]
+        ]
+    },
+    {
+        "id": "35acb28c0db37eb0",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtOne\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db242455a58a47a6",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name2",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1030,
+        "wires": [
+            [
+                "4563c2a93b4625c8"
+            ]
+        ]
+    },
+    {
+        "id": "4563c2a93b4625c8",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtTwo\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1030,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3740926957e5377",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name3",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1060,
+        "wires": [
+            [
+                "49898ef57427f48a"
+            ]
+        ]
+    },
+    {
+        "id": "49898ef57427f48a",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtThree\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6fb4d4bbcd83b3c",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name4",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1090,
+        "wires": [
+            [
+                "7d915b3887eb0d16"
+            ]
+        ]
+    },
+    {
+        "id": "7d915b3887eb0d16",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtFour\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1090,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7471e5efbfbf7b99",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name5",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1120,
+        "wires": [
+            [
+                "91155a9fd2ccab55"
+            ]
+        ]
+    },
+    {
+        "id": "91155a9fd2ccab55",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtFive\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57122ffadab3618c",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name6",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1150,
+        "wires": [
+            [
+                "d44286dd38d155d7"
+            ]
+        ]
+    },
+    {
+        "id": "d44286dd38d155d7",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtSix\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1150,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fea81c438c5280a",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name7",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1180,
+        "wires": [
+            [
+                "67b81a1a99f320ca"
+            ]
+        ]
+    },
+    {
+        "id": "67b81a1a99f320ca",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtSeven\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d37eaa91f4187784",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name8",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1210,
+        "wires": [
+            [
+                "6ef489e9dc1403b7"
+            ]
+        ]
+    },
+    {
+        "id": "6ef489e9dc1403b7",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtEight\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1210,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60b4e6753458fdde",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name9",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1240,
+        "wires": [
+            [
+                "7c7ce192ffbb32b7"
+            ]
+        ]
+    },
+    {
+        "id": "7c7ce192ffbb32b7",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtNine\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac39350a6163d1f0",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name10",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1270,
+        "wires": [
+            [
+                "f057e8f0dcb57922"
+            ]
+        ]
+    },
+    {
+        "id": "f057e8f0dcb57922",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExtTen\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1270,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61ef5565a10cfea4",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name11",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1300,
+        "wires": [
+            [
+                "64cf0a1e57fdae9d"
+            ]
+        ]
+    },
+    {
+        "id": "64cf0a1e57fdae9d",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt11\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22b3712cc042cdcf",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name12",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1330,
+        "wires": [
+            [
+                "b0f5e2e6749d49d3"
+            ]
+        ]
+    },
+    {
+        "id": "b0f5e2e6749d49d3",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt12\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69cb6fc736740fc5",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name13",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1360,
+        "wires": [
+            [
+                "edc6144c609db5c6"
+            ]
+        ]
+    },
+    {
+        "id": "edc6144c609db5c6",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt13\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "314b6458b5791e4b",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name14",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1390,
+        "wires": [
+            [
+                "4bb59b693b2a24fa"
+            ]
+        ]
+    },
+    {
+        "id": "4bb59b693b2a24fa",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt14\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46f096a1e2103919",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name15",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1420,
+        "wires": [
+            [
+                "0d3ef612cbdc7e22"
+            ]
+        ]
+    },
+    {
+        "id": "0d3ef612cbdc7e22",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt15\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd0138e90f4b6b59",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/extRelay_name16",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 380,
+        "y": 1450,
+        "wires": [
+            [
+                "ba16c45def63d02f"
+            ]
+        ]
+    },
+    {
+        "id": "ba16c45def63d02f",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": " var str = msg.payload;\n\n global.set(\"NExt16\", str);\n  \n ",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc2cf471ea52c86f",
+        "type": "delay",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 150,
+        "y": 910,
+        "wires": [
+            [
+                "46bce56f6f2abdfe",
+                "db242455a58a47a6",
+                "b3740926957e5377",
+                "f6fb4d4bbcd83b3c",
+                "7471e5efbfbf7b99",
+                "57122ffadab3618c",
+                "7fea81c438c5280a",
+                "d37eaa91f4187784",
+                "60b4e6753458fdde",
+                "ac39350a6163d1f0",
+                "61ef5565a10cfea4",
+                "22b3712cc042cdcf",
+                "69cb6fc736740fc5",
+                "314b6458b5791e4b",
+                "46f096a1e2103919",
+                "bd0138e90f4b6b59",
+                "8029d61c1987fb86"
+            ]
+        ]
     },
     {
         "id": "337e4ecc1841f869",
@@ -23643,7 +24323,8 @@
             "f723e65523ef02ca",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "c2466f8bc16fb126"
+            "c2466f8bc16fb126",
+            "104a087ac2951723"
         ],
         "x": 1105,
         "y": 620,
@@ -23685,7 +24366,8 @@
             "9382dcd5bc8523ac",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "aee1338e529e6c43"
+            "aee1338e529e6c43",
+            "30a8c21f6cbf6f3d"
         ],
         "x": 1015,
         "y": 920,
@@ -23725,7 +24407,8 @@
             "1d2d6981b67a3fb3",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "30e6a6e3017e5c9e"
+            "30e6a6e3017e5c9e",
+            "c90399b120dab05d"
         ],
         "x": 1015,
         "y": 1000,
@@ -23766,7 +24449,8 @@
             "8c517888b048c989",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "d1116ab029d29cb5"
+            "d1116ab029d29cb5",
+            "3c8cf1a66085587f"
         ],
         "x": 1015,
         "y": 1080,
@@ -23807,7 +24491,8 @@
             "b383c8212f7fa6ab",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "7b8c44cac0078044"
+            "7b8c44cac0078044",
+            "dd5bfcfba2d023f0"
         ],
         "x": 1015,
         "y": 1160,
@@ -23850,7 +24535,8 @@
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
             "d868c55844337eeb",
-            "820ea7e1efaf008d"
+            "820ea7e1efaf008d",
+            "4609d69595c3e5d8"
         ],
         "x": 1015,
         "y": 1240,
@@ -23890,7 +24576,8 @@
             "c34b8236b33847f4",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "3fab9e398d294554"
+            "3fab9e398d294554",
+            "f6ab3a0a209fd079"
         ],
         "x": 1015,
         "y": 760,
@@ -23930,7 +24617,8 @@
             "ecb6200b0e4a0766",
             "3fe38c2d6edc0c84",
             "0ec85dcb3608a2e8",
-            "c93de3e16e168ad8"
+            "c93de3e16e168ad8",
+            "6a3872dd680acfe7"
         ],
         "x": 1015,
         "y": 840,
@@ -51259,7 +51947,8 @@
         "links": [
             "01d48cd43596ed13",
             "11b12c441106ccea",
-            "bb2fb32a80624a98"
+            "bb2fb32a80624a98",
+            "4fe2e06ae4be96ce"
         ],
         "x": 1015,
         "y": 500,
@@ -54433,7 +55122,8 @@
         "mode": "link",
         "links": [
             "14f090a986f5379b",
-            "c7eb71a35a5ca34c"
+            "c7eb71a35a5ca34c",
+            "67f5c4299f51b891"
         ],
         "x": 1045,
         "y": 740,
@@ -54446,7 +55136,8 @@
         "name": "NExtTwo",
         "mode": "link",
         "links": [
-            "0719913bc84faf5c"
+            "0719913bc84faf5c",
+            "08ab099cd8fd418c"
         ],
         "x": 1045,
         "y": 760,
@@ -54459,7 +55150,8 @@
         "name": "NExtThree",
         "mode": "link",
         "links": [
-            "6fc752fe1794e93c"
+            "6fc752fe1794e93c",
+            "33f8fb645d992fbf"
         ],
         "x": 1045,
         "y": 780,
@@ -54472,7 +55164,8 @@
         "name": "NExtFout",
         "mode": "link",
         "links": [
-            "b35371d7beadeed5"
+            "b35371d7beadeed5",
+            "93a8601b59bd893c"
         ],
         "x": 1045,
         "y": 800,
@@ -54486,7 +55179,8 @@
         "mode": "link",
         "links": [
             "1412de9c5b839d42",
-            "acdb009cfc1a6b94"
+            "acdb009cfc1a6b94",
+            "8d3207a3571ec054"
         ],
         "x": 1045,
         "y": 820,
@@ -54499,7 +55193,8 @@
         "name": "NExtSix",
         "mode": "link",
         "links": [
-            "b80522c0ee9fe4b7"
+            "b80522c0ee9fe4b7",
+            "176535f4d5273fec"
         ],
         "x": 1047,
         "y": 844,
@@ -54512,7 +55207,8 @@
         "name": "NExtSeven",
         "mode": "link",
         "links": [
-            "bb2fb32a80624a98"
+            "bb2fb32a80624a98",
+            "4fe2e06ae4be96ce"
         ],
         "x": 1045,
         "y": 860,
@@ -54525,7 +55221,8 @@
         "name": "NExtEight",
         "mode": "link",
         "links": [
-            "a572a0d28759417a"
+            "a572a0d28759417a",
+            "84411922584ccbc2"
         ],
         "x": 1045,
         "y": 880,
@@ -95970,7 +96667,7 @@
         "type": "function",
         "z": "67973ee8.553c3",
         "name": "set all relays etc. off",
-        "func": "global.set(\"one\", false);\nglobal.set(\"two\", false);\nglobal.set(\"three\", false);\nglobal.set(\"four\", false);\nglobal.set(\"five\", false);\nglobal.set(\"six\", false);\nglobal.set(\"seven\", false);\nglobal.set(\"eight\", false);\nglobal.set(\"nine\", false);\nglobal.set(\"ten\", false);\nglobal.set(\"Wone\", false);\nglobal.set(\"Wtwo\", false);\nglobal.set(\"Wthree\", false);\nglobal.set(\"Wfour\", false);\nglobal.set(\"Wfive\", false);\nglobal.set(\"Wsix\", false);\nglobal.set(\"Wseven\", false);\nglobal.set(\"Weight\", false);\nglobal.set(\"dimmer0\", 0);\nglobal.set(\"dimmer1\", 0);\nglobal.set(\"dimmer2\", 0);\nglobal.set(\"dimmer3\", 0);\nglobal.set(\"dimmer4\", 0);\nglobal.set(\"dimmer5\", 0);\nglobal.set(\"dimmer6\", 0);\nglobal.set(\"dimmer7\", 0);\nglobal.set(\"extOne\", false);\nglobal.set(\"extTwo\", false);\nglobal.set(\"extThree\", false);\nglobal.set(\"extFour\", false);\nglobal.set(\"extFive\", false);\nglobal.set(\"extSix\", false);\nglobal.set(\"extSeven\", false);\nglobal.set(\"extEight\", false);\nmsg.payload =\"relays initialised!\"\nreturn msg;",
+        "func": "global.set(\"one\",    false);\nglobal.set(\"two\",    false);\nglobal.set(\"three\",  false);\nglobal.set(\"four\",   false);\nglobal.set(\"five\",   false);\nglobal.set(\"six\",    false);\nglobal.set(\"seven\",  false);\nglobal.set(\"eight\",  false);\nglobal.set(\"nine\",   false);\nglobal.set(\"ten\",    false);\nglobal.set(\"Wone\",   false);\nglobal.set(\"Wtwo\",   false);\nglobal.set(\"Wthree\", false);\nglobal.set(\"Wfour\",  false);\nglobal.set(\"Wfive\",  false);\nglobal.set(\"Wsix\",   false);\nglobal.set(\"Wseven\", false);\nglobal.set(\"Weight\", false);\nglobal.set(\"dimmer0\", 0);\nglobal.set(\"dimmer1\", 0);\nglobal.set(\"dimmer2\", 0);\nglobal.set(\"dimmer3\", 0);\nglobal.set(\"dimmer4\", 0);\nglobal.set(\"dimmer5\", 0);\nglobal.set(\"dimmer6\", 0);\nglobal.set(\"dimmer7\", 0);\nglobal.set(\"extOne\",   false);\nglobal.set(\"extTwo\",   false);\nglobal.set(\"extThree\", false);\nglobal.set(\"extFour\",  false);\nglobal.set(\"extFive\",  false);\nglobal.set(\"extSix\",   false);\nglobal.set(\"extSeven\", false);\nglobal.set(\"extEight\", false);\nglobal.set(\"extNine\",  false);\nglobal.set(\"extTen\",   false);\nglobal.set(\"ext11\",    false);\nglobal.set(\"ext12\",    false);\nglobal.set(\"ext13\",    false);\nglobal.set(\"ext14\",    false);\nglobal.set(\"ext15\",    false);\nglobal.set(\"ext16\",    false);\nglobal.set(\"wExtOne\",   false);\nglobal.set(\"wExtTwo\",   false);\nglobal.set(\"wExtThree\", false);\nglobal.set(\"wExtFour\",  false);\nglobal.set(\"wExtFive\",  false);\nglobal.set(\"wExtSix\",   false);\nglobal.set(\"wExtSeven\", false);\nglobal.set(\"wExtEight\", false);\nglobal.set(\"wExtNine\",  false);\nglobal.set(\"wExtTen\",   false);\nglobal.set(\"wExt11\",    false);\nglobal.set(\"wExt12\",    false);\nglobal.set(\"wExt13\",    false);\nglobal.set(\"wExt14\",    false);\nglobal.set(\"wExt15\",    false);\nglobal.set(\"wExt16\",    false);\nmsg.payload =\"relays initialised!\"\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -96369,7 +97066,7 @@
         "className": "",
         "topicType": "str",
         "x": 480,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "34989457b37ba41c"
@@ -96414,8 +97111,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 472,
-        "y": 1021,
+        "x": 480,
+        "y": 980,
         "wires": [
             [
                 "3bf82db623790dae"
@@ -96437,8 +97134,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 460,
-        "y": 1100,
+        "x": 480,
+        "y": 1020,
         "wires": [
             [
                 "b35d7482a80d8a21"
@@ -96460,8 +97157,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 460,
-        "y": 1180,
+        "x": 480,
+        "y": 1060,
         "wires": [
             [
                 "85d8a510243ed37c"
@@ -96485,8 +97182,8 @@
         "topic": "",
         "sendOnBlur": true,
         "topicType": "str",
-        "x": 460,
-        "y": 1260,
+        "x": 480,
+        "y": 1100,
         "wires": [
             [
                 "aefa1bb47c92cf22"
@@ -96508,8 +97205,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 460,
-        "y": 1340,
+        "x": 480,
+        "y": 1140,
         "wires": [
             [
                 "6c2c736dc2343a4e"
@@ -96531,8 +97228,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 460,
-        "y": 1420,
+        "x": 480,
+        "y": 1180,
         "wires": [
             [
                 "24a53655b9ad63d3"
@@ -96567,8 +97264,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 792,
-        "y": 1021,
+        "x": 800,
+        "y": 980,
         "wires": [
             []
         ]
@@ -96584,8 +97281,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 1100,
+        "x": 800,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -96601,8 +97298,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 1180,
+        "x": 800,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -96618,8 +97315,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 1260,
+        "x": 800,
+        "y": 1100,
         "wires": [
             []
         ]
@@ -96635,8 +97332,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 1340,
+        "x": 800,
+        "y": 1140,
         "wires": [
             []
         ]
@@ -96652,8 +97349,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 1420,
+        "x": 800,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -96670,7 +97367,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 800,
-        "y": 860,
+        "y": 900,
         "wires": [
             []
         ]
@@ -100138,8 +100835,8 @@
         "links": [
             "2215762d38495713"
         ],
-        "x": 375,
-        "y": 860,
+        "x": 115,
+        "y": 900,
         "wires": [
             [
                 "a532ea7e.26e568"
@@ -100154,7 +100851,7 @@
         "links": [
             "523289f1d05dad12"
         ],
-        "x": 375,
+        "x": 115,
         "y": 940,
         "wires": [
             [
@@ -100170,8 +100867,8 @@
         "links": [
             "3a8124b501346d8b"
         ],
-        "x": 367,
-        "y": 1021,
+        "x": 115,
+        "y": 980,
         "wires": [
             [
                 "87a6e9a1.831058"
@@ -100186,8 +100883,8 @@
         "links": [
             "fd6bfa7ca31c97fa"
         ],
-        "x": 365,
-        "y": 1100,
+        "x": 115,
+        "y": 1020,
         "wires": [
             [
                 "f4e37d02.b4d79"
@@ -100202,8 +100899,8 @@
         "links": [
             "6f9b853e331a293a"
         ],
-        "x": 365,
-        "y": 1180,
+        "x": 115,
+        "y": 1060,
         "wires": [
             [
                 "a0e08ba7.a96ca8"
@@ -100218,8 +100915,8 @@
         "links": [
             "004c62c10b636096"
         ],
-        "x": 365,
-        "y": 1260,
+        "x": 115,
+        "y": 1100,
         "wires": [
             [
                 "a745d5e6.e4ccf8"
@@ -100235,8 +100932,8 @@
             "ba8e80a7849282a2",
             "3a493f6979414933"
         ],
-        "x": 365,
-        "y": 1340,
+        "x": 115,
+        "y": 1140,
         "wires": [
             [
                 "2b70e65a.8006da"
@@ -100251,8 +100948,8 @@
         "links": [
             "ec202c43ad863b73"
         ],
-        "x": 365,
-        "y": 1420,
+        "x": 115,
+        "y": 1180,
         "wires": [
             [
                 "92ebf03e.2a1f3"
@@ -102951,15 +103648,7 @@
             "Relay 5",
             "Relay 6",
             "Relay 7",
-            "Relay 8",
-            "extRelay 1",
-            "extRelay 2",
-            "extRelay 3",
-            "extRelay 4",
-            "extRelay 5",
-            "extRelay 6",
-            "extRelay 7",
-            "extRelay 8"
+            "Relay 8"
         ],
         "singleOff": false,
         "onlySendChange": false,
@@ -102979,7 +103668,7 @@
         "lat": "",
         "lon": "",
         "customContextStore": "",
-        "outputs": 17,
+        "outputs": 9,
         "order": 1,
         "width": "6",
         "height": "6",
@@ -103012,30 +103701,6 @@
             ],
             [
                 "5bd75b59cbebea5d"
-            ],
-            [
-                "00ef112b88c1c550"
-            ],
-            [
-                "e27413ab46959e8c"
-            ],
-            [
-                "2de230778a8d1d98"
-            ],
-            [
-                "91e2bd0a290f3cde"
-            ],
-            [
-                "9f2786cf1497f922"
-            ],
-            [
-                "62db58b7cb23ab36"
-            ],
-            [
-                "e54f33499680b911"
-            ],
-            [
-                "5404d563077e86c8"
             ]
         ]
     },
@@ -103070,8 +103735,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 2590,
-        "y": 940,
+        "x": 2700,
+        "y": 990,
         "wires": [
             []
         ]
@@ -103103,7 +103768,8 @@
             [
                 "8b0246cb957cb9b6",
                 "a308d4859e35c529",
-                "789aa7e8200ff74b"
+                "789aa7e8200ff74b",
+                "cfa319898b0f288b"
             ]
         ]
     },
@@ -103262,7 +103928,7 @@
         "width": "6",
         "height": "6",
         "x": 2350,
-        "y": 1480,
+        "y": 1260,
         "wires": [
             [
                 "c78eb37aab20394d"
@@ -103306,7 +103972,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 2140,
-        "y": 1480,
+        "y": 1260,
         "wires": [
             [
                 "d9bf0a6d2bcc5cbb"
@@ -103325,7 +103991,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 2600,
-        "y": 1400,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -103340,7 +104006,7 @@
             "afbb8dda.ffe6c"
         ],
         "x": 2515,
-        "y": 1420,
+        "y": 1200,
         "wires": []
     },
     {
@@ -103353,7 +104019,7 @@
             "33a5d09e.6cc14"
         ],
         "x": 2515,
-        "y": 1440,
+        "y": 1220,
         "wires": []
     },
     {
@@ -103366,7 +104032,7 @@
             "428f4d48.86eaf4"
         ],
         "x": 2515,
-        "y": 1460,
+        "y": 1240,
         "wires": []
     },
     {
@@ -103379,7 +104045,7 @@
             "d2ce5044.ef8af"
         ],
         "x": 2515,
-        "y": 1480,
+        "y": 1260,
         "wires": []
     },
     {
@@ -103392,7 +104058,7 @@
             "9f1c7c65c2da2d42"
         ],
         "x": 2515,
-        "y": 1500,
+        "y": 1280,
         "wires": []
     },
     {
@@ -103405,7 +104071,7 @@
             "d76c3b78c0f14e69"
         ],
         "x": 2515,
-        "y": 1520,
+        "y": 1300,
         "wires": []
     },
     {
@@ -103418,7 +104084,7 @@
             "34f49f08e1a06032"
         ],
         "x": 2515,
-        "y": 1540,
+        "y": 1320,
         "wires": []
     },
     {
@@ -103431,7 +104097,7 @@
             "1be6547089f6e149"
         ],
         "x": 2515,
-        "y": 1560,
+        "y": 1340,
         "wires": []
     },
     {
@@ -103441,7 +104107,7 @@
         "name": "wrelay scheduler",
         "info": "",
         "x": 2120,
-        "y": 1440,
+        "y": 1220,
         "wires": []
     },
     {
@@ -103475,7 +104141,7 @@
         "width": "6",
         "height": "6",
         "x": 2350,
-        "y": 1660,
+        "y": 1440,
         "wires": [
             [
                 "571a2255980edef3"
@@ -103515,7 +104181,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 2140,
-        "y": 1660,
+        "y": 1440,
         "wires": [
             [
                 "f063ba32ccb5b4f5"
@@ -103534,7 +104200,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 2600,
-        "y": 1600,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -103549,7 +104215,7 @@
             "a4c0fd66546e7864"
         ],
         "x": 2685,
-        "y": 1620,
+        "y": 1400,
         "wires": []
     },
     {
@@ -103559,7 +104225,7 @@
         "name": "dimmer scheduler",
         "info": "",
         "x": 2130,
-        "y": 1620,
+        "y": 1400,
         "wires": []
     },
     {
@@ -103574,7 +104240,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1620,
+        "y": 1400,
         "wires": [
             [
                 "dbb87fff6ea8f3e8"
@@ -103593,7 +104259,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1640,
+        "y": 1420,
         "wires": [
             [
                 "9eba5e6e51323f79"
@@ -103612,7 +104278,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1660,
+        "y": 1440,
         "wires": [
             [
                 "64198e9c23b17369"
@@ -103631,7 +104297,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1680,
+        "y": 1460,
         "wires": [
             [
                 "c7040dac22c555ec"
@@ -103650,7 +104316,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1700,
+        "y": 1480,
         "wires": [
             [
                 "74b52f515245eb5e"
@@ -103669,7 +104335,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1720,
+        "y": 1500,
         "wires": [
             [
                 "e8b08d280f05a340"
@@ -103688,7 +104354,7 @@
         "finalize": "",
         "libs": [],
         "x": 2570,
-        "y": 1740,
+        "y": 1520,
         "wires": [
             [
                 "2ea5dd729742663c"
@@ -103705,7 +104371,7 @@
             "1db51e9f7fe5ebea"
         ],
         "x": 2685,
-        "y": 1640,
+        "y": 1420,
         "wires": []
     },
     {
@@ -103718,7 +104384,7 @@
             "09bf8b5862924eed"
         ],
         "x": 2685,
-        "y": 1660,
+        "y": 1440,
         "wires": []
     },
     {
@@ -103731,7 +104397,7 @@
             "4896e98db77c2f91"
         ],
         "x": 2685,
-        "y": 1680,
+        "y": 1460,
         "wires": []
     },
     {
@@ -103744,7 +104410,7 @@
             "77683cc8a2a2dd71"
         ],
         "x": 2685,
-        "y": 1700,
+        "y": 1480,
         "wires": []
     },
     {
@@ -103757,7 +104423,7 @@
             "2530d817d07d6ef2"
         ],
         "x": 2685,
-        "y": 1720,
+        "y": 1500,
         "wires": []
     },
     {
@@ -103770,7 +104436,7 @@
             "d4e73c36b453526a"
         ],
         "x": 2685,
-        "y": 1740,
+        "y": 1520,
         "wires": []
     },
     {
@@ -104359,7 +105025,7 @@
         "finalize": "",
         "libs": [],
         "x": 620,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "e58353f0.77e45"
@@ -104396,8 +105062,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 612,
-        "y": 1021,
+        "x": 620,
+        "y": 980,
         "wires": [
             [
                 "b01dea90.4b73d8"
@@ -104415,8 +105081,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1100,
+        "x": 620,
+        "y": 1020,
         "wires": [
             [
                 "673f9b64.ec2644"
@@ -104434,8 +105100,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1180,
+        "x": 620,
+        "y": 1060,
         "wires": [
             [
                 "36414bc3.9061f4"
@@ -104453,8 +105119,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1260,
+        "x": 620,
+        "y": 1100,
         "wires": [
             [
                 "c246b726.ae57a8"
@@ -104472,8 +105138,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1340,
+        "x": 620,
+        "y": 1140,
         "wires": [
             [
                 "58df7b5a.591b94"
@@ -104491,8 +105157,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1420,
+        "x": 620,
+        "y": 1180,
         "wires": [
             [
                 "457295c0.90b69c"
@@ -108906,8 +109572,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 900,
+        "x": 290,
+        "y": 920,
         "wires": [
             [
                 "a532ea7e.26e568"
@@ -108926,8 +109592,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 980,
+        "x": 290,
+        "y": 960,
         "wires": [
             [
                 "f21173d1.b7e2"
@@ -108946,8 +109612,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1060,
+        "x": 290,
+        "y": 1000,
         "wires": [
             [
                 "87a6e9a1.831058"
@@ -108966,8 +109632,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1140,
+        "x": 290,
+        "y": 1040,
         "wires": [
             [
                 "f4e37d02.b4d79"
@@ -108986,8 +109652,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1220,
+        "x": 290,
+        "y": 1080,
         "wires": [
             [
                 "a0e08ba7.a96ca8"
@@ -109006,8 +109672,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1300,
+        "x": 290,
+        "y": 1120,
         "wires": [
             [
                 "a745d5e6.e4ccf8"
@@ -109026,8 +109692,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1380,
+        "x": 290,
+        "y": 1160,
         "wires": [
             [
                 "2b70e65a.8006da"
@@ -109046,8 +109712,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 280,
-        "y": 1460,
+        "x": 290,
+        "y": 1200,
         "wires": [
             [
                 "92ebf03e.2a1f3"
@@ -109446,110 +110112,6 @@
         "wires": []
     },
     {
-        "id": "00ef112b88c1c550",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "Extrelay scheduler 1",
-        "mode": "link",
-        "links": [
-            "c7eb71a35a5ca34c"
-        ],
-        "x": 2615,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "e27413ab46959e8c",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "c521f8240e0d196b"
-        ],
-        "x": 2615,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "2de230778a8d1d98",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "0a138f0c2a770af1"
-        ],
-        "x": 2615,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "91e2bd0a290f3cde",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "92b3b62d62838815"
-        ],
-        "x": 2615,
-        "y": 1180,
-        "wires": []
-    },
-    {
-        "id": "9f2786cf1497f922",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "acdb009cfc1a6b94"
-        ],
-        "x": 2615,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "62db58b7cb23ab36",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "a52fd18299b0681d"
-        ],
-        "x": 2615,
-        "y": 1220,
-        "wires": []
-    },
-    {
-        "id": "e54f33499680b911",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "relay scheduler 8",
-        "mode": "link",
-        "links": [
-            "4d59e2e366376133"
-        ],
-        "x": 2615,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "5404d563077e86c8",
-        "type": "link out",
-        "z": "67973ee8.553c3",
-        "name": "ExtRelay scheduler 8",
-        "mode": "link",
-        "links": [
-            "12b49e4699994650"
-        ],
-        "x": 2615,
-        "y": 1260,
-        "wires": []
-    },
-    {
         "id": "6cf273b8a7151219",
         "type": "link out",
         "z": "67973ee8.553c3",
@@ -109568,7 +110130,7 @@
         "z": "67973ee8.553c3",
         "name": "ExtRelays Names",
         "info": "",
-        "x": 380,
+        "x": 440,
         "y": 1660,
         "wires": [],
         "icon": "node-red/alert.svg"
@@ -109581,16 +110143,6 @@
         "info": "",
         "x": 1800,
         "y": 4660,
-        "wires": []
-    },
-    {
-        "id": "0bcda123e81dbba3",
-        "type": "comment",
-        "z": "67973ee8.553c3",
-        "name": "extRelays",
-        "info": "",
-        "x": 2700,
-        "y": 1180,
         "wires": []
     },
     {
@@ -109715,6 +110267,239 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "a1b6c6cfc87b03e6",
+        "type": "ui_time_scheduler",
+        "z": "67973ee8.553c3",
+        "group": "7e7d14002ec520fc",
+        "name": "extRelay scheduler",
+        "startDay": "1",
+        "refresh": 60,
+        "devices": [
+            "extRelay 1",
+            "extRelay 2",
+            "extRelay 3",
+            "extRelay 4",
+            "extRelay 5",
+            "extRelay 6",
+            "extRelay 7",
+            "extRelay 8"
+        ],
+        "singleOff": false,
+        "onlySendChange": false,
+        "customPayload": false,
+        "eventMode": true,
+        "eventOptions": [
+            {
+                "label": "Ein",
+                "event": "true"
+            },
+            {
+                "label": "Aus",
+                "event": "false"
+            }
+        ],
+        "sendTopic": true,
+        "lat": "",
+        "lon": "",
+        "customContextStore": "",
+        "outputs": 9,
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "x": 2360,
+        "y": 1650,
+        "wires": [
+            [
+                "41d1618990119c6e"
+            ],
+            [
+                "850b120edb2f4e04"
+            ],
+            [
+                "9486c29dbf41707f"
+            ],
+            [
+                "4aca0979f49c58fa"
+            ],
+            [
+                "a20307fd74e4eb09"
+            ],
+            [
+                "eb4b93653d797159"
+            ],
+            [
+                "b1f00fceed343411"
+            ],
+            [
+                "8345127c9037858f"
+            ],
+            [
+                "c0e7d49b8b4af1bf"
+            ]
+        ]
+    },
+    {
+        "id": "cfa319898b0f288b",
+        "type": "file in",
+        "z": "67973ee8.553c3",
+        "name": "",
+        "filename": "pekaway/extRelayTimer",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 2160,
+        "y": 1650,
+        "wires": [
+            [
+                "a1b6c6cfc87b03e6"
+            ]
+        ]
+    },
+    {
+        "id": "41d1618990119c6e",
+        "type": "file",
+        "z": "67973ee8.553c3",
+        "name": "",
+        "filename": "pekaway/relaytimer",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 2700,
+        "y": 1590,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b8726bf82680865",
+        "type": "comment",
+        "z": "67973ee8.553c3",
+        "name": "extRelay scheduler",
+        "info": "",
+        "x": 2140,
+        "y": 1610,
+        "wires": []
+    },
+    {
+        "id": "850b120edb2f4e04",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "Extrelay scheduler 1",
+        "mode": "link",
+        "links": [
+            "c7eb71a35a5ca34c"
+        ],
+        "x": 2625,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "9486c29dbf41707f",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "c521f8240e0d196b"
+        ],
+        "x": 2625,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "4aca0979f49c58fa",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "0a138f0c2a770af1"
+        ],
+        "x": 2625,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "a20307fd74e4eb09",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "92b3b62d62838815"
+        ],
+        "x": 2625,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "eb4b93653d797159",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "acdb009cfc1a6b94"
+        ],
+        "x": 2625,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "b1f00fceed343411",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "a52fd18299b0681d"
+        ],
+        "x": 2625,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "8345127c9037858f",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "relay scheduler 8",
+        "mode": "link",
+        "links": [
+            "4d59e2e366376133"
+        ],
+        "x": 2625,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "c0e7d49b8b4af1bf",
+        "type": "link out",
+        "z": "67973ee8.553c3",
+        "name": "ExtRelay scheduler 8",
+        "mode": "link",
+        "links": [
+            "12b49e4699994650"
+        ],
+        "x": 2625,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "4f8e33d8a8507363",
+        "type": "comment",
+        "z": "67973ee8.553c3",
+        "name": "extRelays",
+        "info": "",
+        "x": 2710,
+        "y": 1680,
+        "wires": []
     },
     {
         "id": "1b3788d8c3da1f49",
@@ -114649,7 +115434,8 @@
             "467f94b8bd8299f1",
             "4923f48c45a1970a",
             "c2466f8bc16fb126",
-            "b1ea17ae18903d7d"
+            "b1ea17ae18903d7d",
+            "850b120edb2f4e04"
         ],
         "x": 1115,
         "y": 60,
@@ -114686,7 +115472,8 @@
             "1cfe1d92d61ee32f",
             "aee1338e529e6c43",
             "0980c54b5ce6f5b4",
-            "50b76570aa4c2ad7"
+            "50b76570aa4c2ad7",
+            "a20307fd74e4eb09"
         ],
         "x": 1035,
         "y": 400,
@@ -114725,7 +115512,8 @@
             "e9056f289a802150",
             "f901250490f208a7",
             "30e6a6e3017e5c9e",
-            "f022d2b9e94c938c"
+            "f022d2b9e94c938c",
+            "eb4b93653d797159"
         ],
         "x": 1035,
         "y": 480,
@@ -114762,7 +115550,8 @@
             "ad1c589e4dd2c338",
             "f718e042848fa1fd",
             "d1116ab029d29cb5",
-            "f68c1c7e2dd6aed1"
+            "f68c1c7e2dd6aed1",
+            "b1f00fceed343411"
         ],
         "x": 1035,
         "y": 560,
@@ -114799,9 +115588,10 @@
             "b06b0e438414b5f3",
             "7ef86be6a35bb4f6",
             "7b8c44cac0078044",
-            "32f78e4ab08cc063"
+            "32f78e4ab08cc063",
+            "8345127c9037858f"
         ],
-        "x": 1035,
+        "x": 1075,
         "y": 640,
         "wires": [
             [
@@ -114836,10 +115626,11 @@
             "59aee377b1a16fe7",
             "cea09841835d8d0a",
             "820ea7e1efaf008d",
-            "85e010441ff297c9"
+            "85e010441ff297c9",
+            "c0e7d49b8b4af1bf"
         ],
-        "x": 1035,
-        "y": 800,
+        "x": 1075,
+        "y": 720,
         "wires": [
             [
                 "0b071f8f29a5c8fd"
@@ -114872,10 +115663,11 @@
             "e27413ab46959e8c",
             "bd1f17d06462b20c",
             "3fab9e398d294554",
-            "d90b9819057abd72"
+            "d90b9819057abd72",
+            "9486c29dbf41707f"
         ],
-        "x": 1035,
-        "y": 240,
+        "x": 1055,
+        "y": 210,
         "wires": [
             [
                 "1519ef4109c52ffb"
@@ -114909,7 +115701,8 @@
             "90d36c75fa34458c",
             "3811c85cee6c0184",
             "c93de3e16e168ad8",
-            "138fc6ea791b5494"
+            "138fc6ea791b5494",
+            "4aca0979f49c58fa"
         ],
         "x": 1035,
         "y": 320,
@@ -115241,7 +116034,7 @@
         "id": "88abc215bf68d741",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay2",
+        "name": "status extRelay2",
         "func": "var check = global.get(\"extTwo\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115261,7 +116054,7 @@
         "id": "a185912b17bf1f36",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay3",
+        "name": "status extRelay3",
         "func": "var check = global.get(\"extTree\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115281,7 +116074,7 @@
         "id": "d53265d1ed9cea50",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay4",
+        "name": "status extRelay4",
         "func": "var check = global.get(\"extFour\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115301,7 +116094,7 @@
         "id": "db2d1d288cd9657f",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay5",
+        "name": "status extRelay5",
         "func": "var check = global.get(\"extFive\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115321,7 +116114,7 @@
         "id": "bf66df44a8fc20b3",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay6",
+        "name": "status extRelay6",
         "func": "var check = global.get(\"extSix\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115341,7 +116134,7 @@
         "id": "0194b34f4dadb817",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay7",
+        "name": "status extRelay7",
         "func": "var check = global.get(\"extSeven\");\n\nmsg.payload = check; \nreturn msg;\n\n    \n",
         "outputs": 1,
         "timeout": "",
@@ -115361,7 +116154,7 @@
         "id": "0205ef8ebe2b8b37",
         "type": "function",
         "z": "fce1dd121d74d076",
-        "name": "status ExtRelay8",
+        "name": "status extRelay8",
         "func": "var check = global.get(\"extEight\");\n\n\n\nmsg.payload = check;  \nreturn msg;\n   \n    \n",
         "outputs": 1,
         "timeout": "",
@@ -116062,16 +116855,7 @@
         "y": 1260,
         "wires": [
             [
-                "6a39be580e85a0e6",
-                "8029d61c1987fb86",
-                "46bce56f6f2abdfe",
-                "db242455a58a47a6",
-                "b3740926957e5377",
-                "f6fb4d4bbcd83b3c",
-                "7471e5efbfbf7b99",
-                "57122ffadab3618c",
-                "7fea81c438c5280a",
-                "d37eaa91f4187784"
+                "6a39be580e85a0e6"
             ]
         ]
     },
@@ -116275,7 +117059,7 @@
         "type": "function",
         "z": "fce1dd121d74d076",
         "name": "check relays to set",
-        "func": "var extRelay1 = null\nvar extRelay2 = null\nvar extRelay3 = null\nvar extRelay4 = null\nvar extRelay5 = null\nvar extRelay6 = null\nvar extRelay7 = null\nvar extRelay8 = null\n\nextRelay1 = (msg.payload.relays.extOne   == true ? msg : null) \nextRelay2 = (msg.payload.relays.extTwo   == true ? msg : null) \nextRelay3 = (msg.payload.relays.extThree == true ? msg : null) \nextRelay4 = (msg.payload.relays.extFour  == true ? msg : null) \nextRelay5 = (msg.payload.relays.extFive  == true ? msg : null) \nextRelay6 = (msg.payload.relays.extSix   == true ? msg : null) \nextRelay7 = (msg.payload.relays.extSeven == true ? msg : null) \nextRelay8 = (msg.payload.relays.extEight == true ? msg : null) \n\nif (global.get(\"extMcpinput\"+msg.extMcpinput+\"_type\") == \"switch\") {\n    msg.payload = msg.extMcpinput_status\n    return [ extRelay1, extRelay2, extRelay3, extRelay4, extRelay5, extRelay6, extRelay7, extRelay8 ]\n}\nelse if (global.get(\"extMcpinput\"+msg.extMcpinput+\"_type\") == \"button\") {\n    if (msg.extMcpinput_status == false) {\n        return null\n    }\n    else if (msg.extMcpinput_status == true) {\n        var global_9  = (global.get(\"extOne\")   == true ? false : true)\n        var global_10 = (global.get(\"extTwo\")   == true ? false : true)\n        var global_11 = (global.get(\"extThree\") == true ? false : true)\n        var global_12 = (global.get(\"extFour\")  == true ? false : true)\n        var global_13 = (global.get(\"extFive\")  == true ? false : true)\n        var global_14 = (global.get(\"extSix\")   == true ? false : true)\n        var global_15 = (global.get(\"extSeven\") == true ? false : true)\n        var global_16 = (global.get(\"extEight\") == true ? false : true)\n        \n        var i = 1\n        while (i <= 8) {\n            if (i == 1) {\n                msg.payload = (global.get(\"extOne\") == true ? false : true)\n                node.send([extRelay1, null, null, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 2) {\n                msg.payload = (global.get(\"extTwo\") == true ? false : true)\n                node.send([null, extRelay2, null, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 3) {\n                msg.payload = (global.get(\"extThree\") == true ? false : true)\n                node.send([null, null, extRelay3, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 4) {\n                msg.payload = (global.get(\"extFour\") == true ? false : true)\n                node.send([null, null, null, extRelay4, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 5) {\n                msg.payload = (global.get(\"extFive\") == true ? false : true)\n                node.send([null, null, null, null, extRelay5, null, null, null])\n                i = i+1\n            }\n            else if (i == 6) {\n                msg.payload = (global.get(\"extSix\") == true ? false : true)\n                node.send([null, null, null, null, null, extRelay6, null, null])\n                i = i+1\n            }\n            else if (i == 7) {\n                msg.payload = (global.get(\"extSeven\") == true ? false : true)\n                node.send([null, null, null, null, null, null, extRelay7, null])\n                i = i+1\n            }\n            else if (i == 8) {\n                msg.payload = (global.get(\"extEight\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, extRelay8])\n                i = i+1\n            }\n        }\n            \n    }\n}",
+        "func": "var extRelay1 = null\nvar extRelay2 = null\nvar extRelay3 = null\nvar extRelay4 = null\nvar extRelay5 = null\nvar extRelay6 = null\nvar extRelay7 = null\nvar extRelay8 = null\nvar extRelay9 = null\nvar extRelay10 = null\nvar extRelay11 = null\nvar extRelay12 = null\nvar extRelay13 = null\nvar extRelay14 = null\nvar extRelay15 = null\nvar extRelay16 = null\n\nextRelay1 = (msg.payload.relays.extOne   == true ? msg : null) \nextRelay2 = (msg.payload.relays.extTwo   == true ? msg : null) \nextRelay3 = (msg.payload.relays.extThree == true ? msg : null) \nextRelay4 = (msg.payload.relays.extFour  == true ? msg : null) \nextRelay5 = (msg.payload.relays.extFive  == true ? msg : null) \nextRelay6 = (msg.payload.relays.extSix   == true ? msg : null) \nextRelay7 = (msg.payload.relays.extSeven == true ? msg : null) \nextRelay8 = (msg.payload.relays.extEight == true ? msg : null) \nextRelay9 = (msg.payload.relays.extNine  == true ? msg : null) \nextRelay10 = (msg.payload.relays.extTen == true ? msg : null) \nextRelay11 = (msg.payload.relays.ext11 == true ? msg : null) \nextRelay12 = (msg.payload.relays.ext12 == true ? msg : null) \nextRelay13 = (msg.payload.relays.ext13 == true ? msg : null) \nextRelay14 = (msg.payload.relays.ext14 == true ? msg : null) \nextRelay15 = (msg.payload.relays.ext15 == true ? msg : null) \nextRelay16 = (msg.payload.relays.ext16 == true ? msg : null) \n\nif (global.get(\"extMcpinput\"+msg.extMcpinput+\"_type\") == \"switch\") {\n    msg.payload = msg.extMcpinput_status\n    return [ extRelay1, extRelay2, extRelay3, extRelay4, extRelay5, extRelay6, extRelay7,\n     extRelay8, extRelay10, extRelay11 , extRelay12, extRelay13 , extRelay14, extRelay15 , extRelay16 ]\n}\nelse if (global.get(\"extMcpinput\"+msg.extMcpinput+\"_type\") == \"button\") {\n    if (msg.extMcpinput_status == false) {\n        return null\n    }\n    else if (msg.extMcpinput_status == true) {\n        var global_11  = (global.get(\"extOne\")  == true ? false : true)\n        var global_12 = (global.get(\"extTwo\")   == true ? false : true)\n        var global_13 = (global.get(\"extThree\") == true ? false : true)\n        var global_14 = (global.get(\"extFour\")  == true ? false : true)\n        var global_15 = (global.get(\"extFive\")  == true ? false : true)\n        var global_16 = (global.get(\"extSix\")   == true ? false : true)\n        var global_17 = (global.get(\"extSeven\") == true ? false : true)\n        var global_18 = (global.get(\"extEight\") == true ? false : true)\n        var global_19 = (global.get(\"extNine\")  == true ? false : true)\n        var global_20 = (global.get(\"extTen\")   == true ? false : true)\n        var global_21 = (global.get(\"ext11\")    == true ? false : true)\n        var global_22 = (global.get(\"ext12\")    == true ? false : true)\n        var global_23 = (global.get(\"ext13\")    == true ? false : true)\n        var global_24 = (global.get(\"ext14\")    == true ? false : true)\n        var global_25 = (global.get(\"ext15\")    == true ? false : true)\n        var global_26 = (global.get(\"ext16\")    == true ? false : true)\n\n\n        var i = 1\n        while (i <= 16) {\n            if (i == 1) {\n                msg.payload = (global.get(\"extOne\") == true ? false : true)\n                node.send([extRelay1, null, null, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 2) {\n                msg.payload = (global.get(\"extTwo\") == true ? false : true)\n                node.send([null, extRelay2, null, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 3) {\n                msg.payload = (global.get(\"extThree\") == true ? false : true)\n                node.send([null, null, extRelay3, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 4) {\n                msg.payload = (global.get(\"extFour\") == true ? false : true)\n                node.send([null, null, null, extRelay4, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 5) {\n                msg.payload = (global.get(\"extFive\") == true ? false : true)\n                node.send([null, null, null, null, extRelay5, null, null, null])\n                i = i+1\n            }\n            else if (i == 6) {\n                msg.payload = (global.get(\"extSix\") == true ? false : true)\n                node.send([null, null, null, null, null, extRelay6, null, null])\n                i = i+1\n            }\n            else if (i == 7) {\n                msg.payload = (global.get(\"extSeven\") == true ? false : true)\n                node.send([null, null, null, null, null, null, extRelay7, null])\n                i = i+1\n            }\n            else if (i == 8) {\n                msg.payload = (global.get(\"extEight\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, extRelay8, null, null, null, null, null, null, null, null])\n                i = i+1\n            }\n            else if (i == 9) {\n                msg.payload = (global.get(\"extNine\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, extRelay9, null, null, null, null, null, null, null])\n                i = i + 1\n            }\n            else if (i == 10) {\n                msg.payload = (global.get(\"extTen\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, extRelay10, null, null, null, null, null, null])\n                i = i + 1\n            }\n            else if (i == 11) {\n                msg.payload = (global.get(\"ext11\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, extRelay11, null, null, null, null, null])\n                i = i + 1\n            }\n            else if (i == 12) {\n                msg.payload = (global.get(\"ext12\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, null, extRelay12, null, null, null, null])\n                i = i + 1\n            }\n            else if (i == 13) {\n                msg.payload = (global.get(\"ext13\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, null, null, extRelay13, null, null, null])\n                i = i + 1\n            }\n            else if (i == 14) {\n                msg.payload = (global.get(\"ext14\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, null, null, null, extRelay14, null, null,])\n                i = i + 1\n            }\n            else if (i == 15) {\n                msg.payload = (global.get(\"ext15\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, null, null, null, null, extRelay15, null])\n                i = i + 1\n            }\n            else if (i == 16) {\n                msg.payload = (global.get(\"ext16\") == true ? false : true)\n                node.send([null, null, null, null, null, null, null, null, null, null, null, null, null, null, extRelay16])\n                i = i + 1\n            }\n        }\n            \n    }\n}",
         "outputs": 8,
         "timeout": "",
         "noerr": 0,
@@ -116354,23 +117138,6 @@
         ]
     },
     {
-        "id": "8029d61c1987fb86",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "boot true",
-        "func": "flow.set(\"boot\",true);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 1140,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "45eceaf2fa1a99b4",
         "type": "comment",
         "z": "fce1dd121d74d076",
@@ -116379,310 +117146,6 @@
         "x": 910,
         "y": 1020,
         "wires": []
-    },
-    {
-        "id": "46bce56f6f2abdfe",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name1",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1180,
-        "wires": [
-            [
-                "35acb28c0db37eb0"
-            ]
-        ]
-    },
-    {
-        "id": "35acb28c0db37eb0",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtOne\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "db242455a58a47a6",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name2",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1220,
-        "wires": [
-            [
-                "4563c2a93b4625c8"
-            ]
-        ]
-    },
-    {
-        "id": "4563c2a93b4625c8",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtTwo\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b3740926957e5377",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name3",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1260,
-        "wires": [
-            [
-                "49898ef57427f48a"
-            ]
-        ]
-    },
-    {
-        "id": "49898ef57427f48a",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtThree\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f6fb4d4bbcd83b3c",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name4",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1300,
-        "wires": [
-            [
-                "7d915b3887eb0d16"
-            ]
-        ]
-    },
-    {
-        "id": "7d915b3887eb0d16",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtFour\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7471e5efbfbf7b99",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name5",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1340,
-        "wires": [
-            [
-                "91155a9fd2ccab55"
-            ]
-        ]
-    },
-    {
-        "id": "91155a9fd2ccab55",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtFive\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "57122ffadab3618c",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name6",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1380,
-        "wires": [
-            [
-                "d44286dd38d155d7"
-            ]
-        ]
-    },
-    {
-        "id": "d44286dd38d155d7",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtSix\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7fea81c438c5280a",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name7",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1420,
-        "wires": [
-            [
-                "67b81a1a99f320ca"
-            ]
-        ]
-    },
-    {
-        "id": "67b81a1a99f320ca",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtSeven\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d37eaa91f4187784",
-        "type": "file in",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "filename": "pekaway/extRelay_name8",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 380,
-        "y": 1460,
-        "wires": [
-            [
-                "6ef489e9dc1403b7"
-            ]
-        ]
-    },
-    {
-        "id": "6ef489e9dc1403b7",
-        "type": "function",
-        "z": "fce1dd121d74d076",
-        "name": "set global",
-        "func": " var str = msg.payload;\n\n global.set(\"NExtEight\", str);\n  \n ",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1460,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "7d1681ef136f2bd0",
@@ -116749,8 +117212,8 @@
         "links": [
             "88627c67148a916a"
         ],
-        "x": 735,
-        "y": 1560,
+        "x": 685,
+        "y": 1520,
         "wires": []
     },
     {
@@ -116760,7 +117223,7 @@
         "name": "Verbindung zu extra Konfig",
         "info": "",
         "x": 870,
-        "y": 1560,
+        "y": 1520,
         "wires": []
     },
     {
@@ -118656,11 +119119,41 @@
                 "t": "cont",
                 "v": "extRelay/10",
                 "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/11",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/12",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/13",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/14",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/15",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "extRelay/16",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 10,
+        "outputs": 16,
         "x": 1730,
         "y": 1380,
         "wires": [
@@ -118693,6 +119186,24 @@
             ],
             [
                 "54dcdb41f18eedc5"
+            ],
+            [
+                "c3608988d3f31e2a"
+            ],
+            [
+                "d11792481fecab7f"
+            ],
+            [
+                "bd043728315cbd5a"
+            ],
+            [
+                "b9f3ab0e7dfac8a4"
+            ],
+            [
+                "458e7cb342f8578a"
+            ],
+            [
+                "70576c21184224d2"
             ]
         ]
     },
@@ -118876,8 +119387,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 438,
-        "y": 2619,
+        "x": 440,
+        "y": 2580,
         "wires": [
             [
                 "bdfaf2c92334413d"
@@ -118902,8 +119413,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 2700,
+        "x": 440,
+        "y": 2620,
         "wires": [
             [
                 "22bcb67a2359fecd"
@@ -118928,8 +119439,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 2780,
+        "x": 440,
+        "y": 2660,
         "wires": [
             [
                 "49a97be7f8c15f93"
@@ -118954,8 +119465,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 2860,
+        "x": 440,
+        "y": 2700,
         "wires": [
             [
                 "17e9c2f2f96ff1a5"
@@ -118980,8 +119491,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 2940,
+        "x": 440,
+        "y": 2740,
         "wires": [
             [
                 "1b8def464f71d971"
@@ -119006,8 +119517,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 3020,
+        "x": 440,
+        "y": 2780,
         "wires": [
             [
                 "afce641e3716e3d1"
@@ -119032,8 +119543,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 430,
-        "y": 3100,
+        "x": 440,
+        "y": 2820,
         "wires": [
             [
                 "83b205f67a5f2152"
@@ -119051,8 +119562,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 788,
-        "y": 2619,
+        "x": 790,
+        "y": 2580,
         "wires": [
             []
         ]
@@ -119068,8 +119579,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 2700,
+        "x": 790,
+        "y": 2620,
         "wires": [
             []
         ]
@@ -119085,8 +119596,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 2780,
+        "x": 790,
+        "y": 2660,
         "wires": [
             []
         ]
@@ -119102,8 +119613,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 788,
-        "y": 2859,
+        "x": 790,
+        "y": 2700,
         "wires": [
             []
         ]
@@ -119119,8 +119630,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 788,
-        "y": 2939,
+        "x": 790,
+        "y": 2740,
         "wires": [
             []
         ]
@@ -119130,14 +119641,14 @@
         "type": "file",
         "z": "fce1dd121d74d076",
         "name": "",
-        "filename": "pekaway/extrelay_name7",
+        "filename": "pekaway/extRelay_name7",
         "filenameType": "str",
         "appendNewline": false,
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 780,
-        "y": 3020,
+        "x": 790,
+        "y": 2780,
         "wires": [
             []
         ]
@@ -119153,8 +119664,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 788,
-        "y": 3099,
+        "x": 790,
+        "y": 2820,
         "wires": [
             []
         ]
@@ -119184,8 +119695,8 @@
         "links": [
             "f486b714c3c681af"
         ],
-        "x": 305,
-        "y": 2620,
+        "x": 65,
+        "y": 2580,
         "wires": [
             [
                 "91b66dea926a7168"
@@ -119200,8 +119711,8 @@
         "links": [
             "4a18d3db85c939cc"
         ],
-        "x": 307,
-        "y": 2701,
+        "x": 65,
+        "y": 2620,
         "wires": [
             [
                 "0b08d4a6fd09a0fe"
@@ -119216,8 +119727,8 @@
         "links": [
             "aff7acac90d92322"
         ],
-        "x": 305,
-        "y": 2780,
+        "x": 65,
+        "y": 2660,
         "wires": [
             [
                 "0fdcd5cd47333f26"
@@ -119232,8 +119743,8 @@
         "links": [
             "dbff22ad14df44d2"
         ],
-        "x": 305,
-        "y": 2860,
+        "x": 65,
+        "y": 2700,
         "wires": [
             [
                 "f3d645503233555f"
@@ -119248,8 +119759,8 @@
         "links": [
             "99793936be7195f1"
         ],
-        "x": 305,
-        "y": 2940,
+        "x": 65,
+        "y": 2740,
         "wires": [
             [
                 "8d193455311e2250"
@@ -119265,8 +119776,8 @@
             "442ce1daaad608ca",
             "ba8e80a7849282a2"
         ],
-        "x": 305,
-        "y": 3020,
+        "x": 65,
+        "y": 2780,
         "wires": [
             [
                 "df4fb82d9e3344b6"
@@ -119281,8 +119792,8 @@
         "links": [
             "bb6b82a473f40dcd"
         ],
-        "x": 305,
-        "y": 3100,
+        "x": 65,
+        "y": 2820,
         "wires": [
             [
                 "f26fb5d2d456f5b4"
@@ -119301,7 +119812,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 590,
         "y": 2540,
         "wires": [
             [
@@ -119321,8 +119832,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 2620,
+        "x": 590,
+        "y": 2580,
         "wires": [
             [
                 "4d6fedd34c6d48be"
@@ -119341,8 +119852,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 2700,
+        "x": 590,
+        "y": 2620,
         "wires": [
             [
                 "d8d1b9ca3feea916"
@@ -119361,8 +119872,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 2780,
+        "x": 590,
+        "y": 2660,
         "wires": [
             [
                 "e892e1eed0f68cb4"
@@ -119381,8 +119892,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 2860,
+        "x": 590,
+        "y": 2700,
         "wires": [
             [
                 "983b665f153c720d"
@@ -119401,8 +119912,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 2940,
+        "x": 590,
+        "y": 2740,
         "wires": [
             [
                 "752c3dd4a80bbe87"
@@ -119421,8 +119932,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 3020,
+        "x": 590,
+        "y": 2780,
         "wires": [
             [
                 "ba30e3b44503c1f0"
@@ -119441,8 +119952,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 3100,
+        "x": 590,
+        "y": 2820,
         "wires": [
             [
                 "789e867d7644eb44"
@@ -119461,8 +119972,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2580,
+        "x": 230,
+        "y": 2560,
         "wires": [
             [
                 "1818a6490a679f4d"
@@ -119481,8 +119992,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2660,
+        "x": 230,
+        "y": 2600,
         "wires": [
             [
                 "91b66dea926a7168"
@@ -119501,8 +120012,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2740,
+        "x": 230,
+        "y": 2640,
         "wires": [
             [
                 "0b08d4a6fd09a0fe"
@@ -119521,8 +120032,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2820,
+        "x": 230,
+        "y": 2680,
         "wires": [
             [
                 "0fdcd5cd47333f26"
@@ -119541,8 +120052,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2900,
+        "x": 230,
+        "y": 2720,
         "wires": [
             [
                 "f3d645503233555f"
@@ -119561,8 +120072,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 2980,
+        "x": 230,
+        "y": 2760,
         "wires": [
             [
                 "8d193455311e2250"
@@ -119581,8 +120092,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 3060,
+        "x": 230,
+        "y": 2800,
         "wires": [
             [
                 "df4fb82d9e3344b6"
@@ -119601,8 +120112,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 240,
-        "y": 3140,
+        "x": 230,
+        "y": 2840,
         "wires": [
             [
                 "f26fb5d2d456f5b4"
@@ -119617,8 +120128,8 @@
         "links": [
             "6cf273b8a7151219"
         ],
-        "x": 75,
-        "y": 2520,
+        "x": 35,
+        "y": 2460,
         "wires": [
             [
                 "129434fb455ac2ae",
@@ -119628,7 +120139,15 @@
                 "80142dcb869ef41b",
                 "126afbdc4b8385cc",
                 "5175c372b4c6f0c2",
-                "4e7357b1f27075f2"
+                "4e7357b1f27075f2",
+                "6dd29c57c538bf02",
+                "eabd54e87d0f9471",
+                "0160f22991c1f66a",
+                "fbbe9cf4c0278c23",
+                "562456f6f0c3a59e",
+                "390a56ca9ca5d42d",
+                "f233a7f5e54c8c72",
+                "cb6f5af53786cb21"
             ]
         ]
     },
@@ -119933,7 +120452,7 @@
         "type": "function",
         "z": "fce1dd121d74d076",
         "name": "check input and get relay",
-        "func": "function number2words(n){\n    if (n < 20) return num[n];\n    var digit = n%10;\n    return number2words(~~(n/1000)) + \" thousand\" + (n%1000 != 0? \" \" + number2words(n%1000): \"\");\n}\n\nvar globalVar = msg.req.params.input\n\nif (isNaN(parseInt(msg.req.params.input)) == false){\n    var num = \"zero extOne extTwo extThree extFour extFive extSix extSeven extEight extNine extTen\".split(\" \");\n    msg.req.params.input = parseInt(msg.req.params.input)\n    msg.req.params.input = number2words(msg.req.params.input)\n    globalVar = msg.req.params.input\n}\n\nif (msg.req.params.input==\"all\") {\n    msg.payload = {\n        \"extRelay1\": {\n            \"state\":global.get(\"extOne\"),            \n            \"name\":global.get(\"NExtOne\"),\n            //\"autooff\": global.get(\"extOneOffAuto\")\n        },\n        \"extRelay2\": {\n            \"state\":global.get(\"extTwo\"),            \n            \"name\":global.get(\"NExtTwo\"),\n            //\"autooff\": global.get(\"extTwoOffAuto\")\n        },\n        \"extRelay3\": {\n            \"state\":global.get(\"extThree\"),            \n            \"name\":global.get(\"NExtThree\"),\n            //\"autooff\": global.get(\"threeOffAuto\")\n        },\n        \"extRelay4\": {\n            \"state\":global.get(\"extFour\"),            \n            \"name\":global.get(\"NExtFour\"),\n            //\"autooff\": global.get(\"fourOffAuto\")\n        },\n        \"extRelay5\": {\n            \"state\":global.get(\"extFive\"),            \n            \"name\":global.get(\"NExtFive\"),\n            //\"autooff\": global.get(\"extFiveOffAuto\")\n        },\n        \"extRelay6\": {\n            \"state\":global.get(\"extSix\"),            \n            \"name\":global.get(\"NExtSix\"),\n            //\"autooff\": global.get(\"extSixOffAuto\")\n        },\n        \"extRelay7\": {\n            \"state\":global.get(\"extSeven\"),            \n            \"name\":global.get(\"NExtSeven\"),\n            //\"autooff\": global.get(\"extSevenOffAuto\")\n        },\n        \"extRelay8\": {\n            \"state\":global.get(\"extEight\"),            \n            \"name\":global.get(\"NExtEight\"),\n            //\"autooff\": global.get(\"extEightOffAuto\")\n        }\n\n    };\n}\nelse if (global.get(msg.req.params.input)!==undefined) {\n    var n = \"N\"+msg.req.params.input\n    var autooff = global.get(msg.req.params.input+\"offauto\")\n    msg.payload = {\n        \"extRelay\":msg.req.params.input,\n        \"state\":global.get(msg.req.params.input),\n        \"name\":global.get(n),\n        //\"autooff\": autooff\n    };\n}\nelse {\n    msg.payload = \"extRelay \" + msg.req.params.input + \" does not exist\"\n}\n    \nreturn msg;",
+        "func": "function number2words(n){\n    if (n < 20) return num[n];\n    var digit = n%10;\n    return number2words(~~(n/1000)) + \" thousand\" + (n%1000 != 0? \" \" + number2words(n%1000): \"\");\n}\n\nvar globalVar = msg.req.params.input\n\nif (isNaN(parseInt(msg.req.params.input)) == false){\n    var num = \"zero extOne extTwo extThree extFour extFive extSix extSeven extEight extNine extTen ext11 ext12 ext13 ext14 ext15\".split(\" \");\n    msg.req.params.input = parseInt(msg.req.params.input)\n    msg.req.params.input = number2words(msg.req.params.input)\n    globalVar = msg.req.params.input\n}\n\nif (msg.req.params.input==\"all\") {\n    msg.payload = {\n        \"extRelay1\": {\n            \"state\":global.get(\"extOne\"),            \n            \"name\":global.get(\"NExtOne\"),\n            //\"autoOff\": global.get(\"extOneOffAuto\")\n        },\n        \"extRelay2\": {\n            \"state\":global.get(\"extTwo\"),            \n            \"name\":global.get(\"NExtTwo\"),\n            //\"autoOff\": global.get(\"extTwoOffAuto\")\n        },\n        \"extRelay3\": {\n            \"state\":global.get(\"extThree\"),            \n            \"name\":global.get(\"NExtThree\"),\n            //\"autoOff\": global.get(\"threeOffAuto\")\n        },\n        \"extRelay4\": {\n            \"state\":global.get(\"extFour\"),            \n            \"name\":global.get(\"NExtFour\"),\n            //\"autooff\": global.get(\"fourOffAuto\")\n        },\n        \"extRelay5\": {\n            \"state\":global.get(\"extFive\"),            \n            \"name\":global.get(\"NExtFive\"),\n            //\"autooff\": global.get(\"extFiveOffAuto\")\n        },\n        \"extRelay6\": {\n            \"state\":global.get(\"extSix\"),            \n            \"name\":global.get(\"NExtSix\"),\n            //\"autooff\": global.get(\"extSixOffAuto\")\n        },\n        \"extRelay7\": {\n            \"state\":global.get(\"extSeven\"),            \n            \"name\":global.get(\"NExtSeven\"),\n            //\"autooff\": global.get(\"extSevenOffAuto\")\n        },\n        \"extRelay8\": {\n            \"state\":global.get(\"extEight\"),            \n            \"name\":global.get(\"NExtEight\"),\n            //\"autooff\": global.get(\"extEightOffAuto\")\n        }\n\n    };\n}\nelse if (global.get(msg.req.params.input)!==undefined) {\n    var n = \"N\"+msg.req.params.input\n    var autooff = global.get(msg.req.params.input+\"offauto\")\n    msg.payload = {\n        \"extRelay\":msg.req.params.input,\n        \"state\":global.get(msg.req.params.input),\n        \"name\":global.get(n),\n        //\"autooff\": autooff\n    };\n}\nelse {\n    msg.payload = \"extRelay \" + msg.req.params.input + \" does not exist\"\n}\n    \nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -120112,7 +120631,7 @@
         "links": [
             "cd6251bb5ac7122d"
         ],
-        "x": 305,
+        "x": 65,
         "y": 2540,
         "wires": [
             [
@@ -120796,9 +121315,11 @@
         "name": "button txt ändern",
         "func": "\n\nvar buf = [];\n\n\nmsg.payload = \"t410.txt=\\\"\"+msg.payload+\"\\\"\"\n\n\nvar str = msg.payload;\n\nfor (var i=0, l = str.length; i < l; i++) {\n var ascii =str.charCodeAt(i);\n buf.push(ascii);\n }\n \n buf.push(255);\n  buf.push(255);\n   buf.push(255);\n \n msg.payload = new Buffer(buf)\n \nreturn msg;\n\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1730,
         "y": 3400,
         "wires": [
@@ -120832,7 +121353,7 @@
         "type": "file in",
         "z": "fce1dd121d74d076",
         "name": "",
-        "filename": "pekaway/ExtRelay_name10",
+        "filename": "pekaway/extRelay_name10",
         "filenameType": "str",
         "format": "utf8",
         "chunk": false,
@@ -121232,5 +121753,874 @@
                 "810817b40850a9d3"
             ]
         ]
+    },
+    {
+        "id": "ae53b7605c4710b2",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 9",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 440,
+        "y": 2880,
+        "wires": [
+            [
+                "c2de7e4e9e2c5602"
+            ]
+        ]
+    },
+    {
+        "id": "9f0208972d24c53a",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 10",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 2921,
+        "wires": [
+            [
+                "81e494d7235f96d6"
+            ]
+        ]
+    },
+    {
+        "id": "74dbe6c97e70f846",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 11",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 2961,
+        "wires": [
+            [
+                "87566b3c53cf6632"
+            ]
+        ]
+    },
+    {
+        "id": "7ffd8661bd8c3c97",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 13",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 3001,
+        "wires": [
+            [
+                "3a73e68dbb652d7f"
+            ]
+        ]
+    },
+    {
+        "id": "a1e4d31e9befc272",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 13",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 3041,
+        "wires": [
+            [
+                "c84d07fac00ea3e3"
+            ]
+        ]
+    },
+    {
+        "id": "958c82159811812e",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 14",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 3081,
+        "wires": [
+            [
+                "3db2454013206134"
+            ]
+        ]
+    },
+    {
+        "id": "3002da62113d67ca",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 15",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 3121,
+        "wires": [
+            [
+                "76b07552fc3eb9f1"
+            ]
+        ]
+    },
+    {
+        "id": "70f5eebc6505d0fc",
+        "type": "ui_text_input",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "label": "ExtRelay 16",
+        "tooltip": "",
+        "group": "859215cabde6862d",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 442,
+        "y": 3161,
+        "wires": [
+            [
+                "1921cb77a34c8c4e"
+            ]
+        ]
+    },
+    {
+        "id": "ae7b8629cbe2a644",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name10",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 2921,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15a19e1be8a93d27",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name11",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 2961,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a952a4443518c893",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name12",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 3001,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b631e965149d8e2",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name13",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 3041,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a49a56c22fa48ea7",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name14",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 3081,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7c52a890140a625",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name15",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 3121,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3eddd3f07ba76c6c",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name16",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 792,
+        "y": 3161,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8edf955fb3e4981",
+        "type": "file",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name9",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 790,
+        "y": 2880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08ab099cd8fd418c",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExtTen",
+        "links": [
+            "f486b714c3c681af"
+        ],
+        "x": 67,
+        "y": 2921,
+        "wires": [
+            [
+                "9f0208972d24c53a"
+            ]
+        ]
+    },
+    {
+        "id": "33f8fb645d992fbf",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt11",
+        "links": [
+            "4a18d3db85c939cc"
+        ],
+        "x": 67,
+        "y": 2961,
+        "wires": [
+            [
+                "74dbe6c97e70f846"
+            ]
+        ]
+    },
+    {
+        "id": "93a8601b59bd893c",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt12",
+        "links": [
+            "aff7acac90d92322"
+        ],
+        "x": 67,
+        "y": 3001,
+        "wires": [
+            [
+                "7ffd8661bd8c3c97"
+            ]
+        ]
+    },
+    {
+        "id": "8d3207a3571ec054",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt13",
+        "links": [
+            "dbff22ad14df44d2"
+        ],
+        "x": 67,
+        "y": 3041,
+        "wires": [
+            [
+                "a1e4d31e9befc272"
+            ]
+        ]
+    },
+    {
+        "id": "176535f4d5273fec",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt14",
+        "links": [
+            "99793936be7195f1"
+        ],
+        "x": 67,
+        "y": 3081,
+        "wires": [
+            [
+                "958c82159811812e"
+            ]
+        ]
+    },
+    {
+        "id": "4fe2e06ae4be96ce",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt15",
+        "links": [
+            "442ce1daaad608ca",
+            "ba8e80a7849282a2"
+        ],
+        "x": 67,
+        "y": 3121,
+        "wires": [
+            [
+                "3002da62113d67ca"
+            ]
+        ]
+    },
+    {
+        "id": "84411922584ccbc2",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExt16",
+        "links": [
+            "bb6b82a473f40dcd"
+        ],
+        "x": 67,
+        "y": 3161,
+        "wires": [
+            [
+                "70f5eebc6505d0fc"
+            ]
+        ]
+    },
+    {
+        "id": "c2de7e4e9e2c5602",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 9\"\n}\nglobal.set(\"NExtNine\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 2881,
+        "wires": [
+            [
+                "e8edf955fb3e4981"
+            ]
+        ]
+    },
+    {
+        "id": "81e494d7235f96d6",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 10\"\n}\nglobal.set(\"NExtTen\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 2921,
+        "wires": [
+            [
+                "ae7b8629cbe2a644"
+            ]
+        ]
+    },
+    {
+        "id": "87566b3c53cf6632",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 11\"\n}\nglobal.set(\"NExt11\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 2961,
+        "wires": [
+            [
+                "15a19e1be8a93d27"
+            ]
+        ]
+    },
+    {
+        "id": "3a73e68dbb652d7f",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 12\"\n}\nglobal.set(\"NExt12\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 3001,
+        "wires": [
+            [
+                "a952a4443518c893"
+            ]
+        ]
+    },
+    {
+        "id": "c84d07fac00ea3e3",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 13\"\n}\nglobal.set(\"NExt13\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 3041,
+        "wires": [
+            [
+                "9b631e965149d8e2"
+            ]
+        ]
+    },
+    {
+        "id": "3db2454013206134",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 14\"\n}\nglobal.set(\"NExt14\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 3081,
+        "wires": [
+            [
+                "a49a56c22fa48ea7"
+            ]
+        ]
+    },
+    {
+        "id": "76b07552fc3eb9f1",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 15\"\n}\nglobal.set(\"NExt15\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 3121,
+        "wires": [
+            [
+                "c7c52a890140a625"
+            ]
+        ]
+    },
+    {
+        "id": "1921cb77a34c8c4e",
+        "type": "function",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "func": "if (msg.payload == \"\") {\n    msg.payload = \"extRelay 16\"\n}\nglobal.set(\"NExt16\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 592,
+        "y": 3161,
+        "wires": [
+            [
+                "3eddd3f07ba76c6c"
+            ]
+        ]
+    },
+    {
+        "id": "6dd29c57c538bf02",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name9",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 2901,
+        "wires": [
+            [
+                "ae53b7605c4710b2"
+            ]
+        ]
+    },
+    {
+        "id": "eabd54e87d0f9471",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name10",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 2941,
+        "wires": [
+            [
+                "9f0208972d24c53a"
+            ]
+        ]
+    },
+    {
+        "id": "0160f22991c1f66a",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name11",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 2981,
+        "wires": [
+            [
+                "74dbe6c97e70f846"
+            ]
+        ]
+    },
+    {
+        "id": "fbbe9cf4c0278c23",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name12",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 3021,
+        "wires": [
+            [
+                "7ffd8661bd8c3c97"
+            ]
+        ]
+    },
+    {
+        "id": "562456f6f0c3a59e",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name13",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 3061,
+        "wires": [
+            [
+                "a1e4d31e9befc272"
+            ]
+        ]
+    },
+    {
+        "id": "390a56ca9ca5d42d",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name14",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 3101,
+        "wires": [
+            [
+                "958c82159811812e"
+            ]
+        ]
+    },
+    {
+        "id": "f233a7f5e54c8c72",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name15",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 3141,
+        "wires": [
+            [
+                "3002da62113d67ca"
+            ]
+        ]
+    },
+    {
+        "id": "cb6f5af53786cb21",
+        "type": "file in",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "filename": "pekaway/extRelay_name16",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 232,
+        "y": 3181,
+        "wires": [
+            [
+                "70f5eebc6505d0fc"
+            ]
+        ]
+    },
+    {
+        "id": "67f5c4299f51b891",
+        "type": "link in",
+        "z": "fce1dd121d74d076",
+        "name": "NExtNine",
+        "links": [
+            "cd6251bb5ac7122d"
+        ],
+        "x": 67,
+        "y": 2881,
+        "wires": [
+            [
+                "ae53b7605c4710b2"
+            ]
+        ]
+    },
+    {
+        "id": "c3608988d3f31e2a",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 11 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1490,
+        "wires": []
+    },
+    {
+        "id": "d11792481fecab7f",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 10 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "bd043728315cbd5a",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 10 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1550,
+        "wires": []
+    },
+    {
+        "id": "b9f3ab0e7dfac8a4",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 10 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "458e7cb342f8578a",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 10 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1610,
+        "wires": []
+    },
+    {
+        "id": "70576c21184224d2",
+        "type": "link out",
+        "z": "fce1dd121d74d076",
+        "name": "mqtt extRelay 10 power",
+        "mode": "link",
+        "links": [],
+        "x": 1935,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "54ec9fc69c48a9e9",
+        "type": "comment",
+        "z": "fce1dd121d74d076",
+        "name": "setzen !!!",
+        "info": "",
+        "x": 1940,
+        "y": 1220,
+        "wires": []
     }
 ]

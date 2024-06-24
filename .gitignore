@@ -142,6 +142,7 @@ dist
 .vnc
 .xsession*
 .wget*
+.ssh
 _*
 
 
