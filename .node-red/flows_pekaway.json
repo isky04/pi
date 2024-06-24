@@ -117925,7 +117925,7 @@
         "id": "90d36c75fa34458c",
         "type": "link out",
         "z": "fce1dd121d74d076",
-        "name": "home/extrelay3/POWER",
+        "name": "home/extRelay3/POWER",
         "mode": "link",
         "links": [
             "0a138f0c2a770af1"
