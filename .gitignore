@@ -143,12 +143,15 @@ dist
 .xsession*
 .wget*
 .ssh
+.vim*
+dotFiles
 _*
 
 
 # pekaway
 pekaway/nrbackups/*
 pekaway/userdata/*
+pekaway/relay*
 pekaway/extRelay*
 pekaway/mcpinput*
 .node-red/*.backup

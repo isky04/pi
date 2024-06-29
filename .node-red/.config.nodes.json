@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "3.1.9",
+        "version": "4.0.1",
         "local": false,
         "user": false,
         "nodes": {
@@ -1349,6 +1349,26 @@
                 "user": false,
                 "module": "node-red-contrib-gpio",
                 "file": "/home/pi/.node-red/node_modules/node-red-contrib-gpio/gpio.js"
+            }
+        }
+    },
+    "node-red-contrib-xl9535": {
+        "name": "node-red-contrib-xl9535",
+        "version": "0.0.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "XL9535-io-ext": {
+                "name": "XL9535-io-ext",
+                "types": [
+                    "i2c IO Read",
+                    "i2c IO Write"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-xl9535",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-xl9535/XL9535-io-ext.js"
             }
         }
     }

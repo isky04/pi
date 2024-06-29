@@ -115670,7 +115670,7 @@
         "wires": [
             [
                 "fa4bf964ba54155e",
-                "a7c062340fd7a2f9"
+                "a8f2ae473e9582d5"
             ]
         ]
     },
@@ -115691,7 +115691,7 @@
         "wires": [
             [
                 "b0d081eea1e86d16",
-                "54aa4e60830e3fcf"
+                "22138c227ddb8ae7"
             ]
         ]
     },
@@ -115712,7 +115712,7 @@
         "wires": [
             [
                 "c67a35a59d0a6ead",
-                "7488e475ad44ffe9"
+                "485cca23d06ab882"
             ]
         ]
     },
@@ -115733,7 +115733,7 @@
         "wires": [
             [
                 "62ed9dbc9f8a9aea",
-                "d55d91ab744dabf1"
+                "7b7e2bd0ba6a5a23"
             ]
         ]
     },
@@ -115754,7 +115754,7 @@
         "wires": [
             [
                 "655a57f4987e0bbc",
-                "cfbdd3bc2e2cc549"
+                "e745e6cbec11f4a0"
             ]
         ]
     },
@@ -115775,7 +115775,7 @@
         "wires": [
             [
                 "091584cd1b013b65",
-                "cf57d2ab39974233"
+                "2aa3c2010347f12b"
             ]
         ]
     },
@@ -115796,7 +115796,7 @@
         "wires": [
             [
                 "136676e4f522fea9",
-                "5c3019a6ab1a7fcb"
+                "87a302938dd004da"
             ]
         ]
     },
@@ -115817,7 +115817,7 @@
         "wires": [
             [
                 "d7f4db5d0c4cf341",
-                "5ccf9c34fa440f34"
+                "3fe40daf2f6cbdcb"
             ]
         ]
     },
@@ -121987,202 +121987,6 @@
         ]
     },
     {
-        "id": "a7c062340fd7a2f9",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "0",
-        "x": 1980,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "54aa4e60830e3fcf",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "1",
-        "x": 1980,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7488e475ad44ffe9",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "2",
-        "x": 1980,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d55d91ab744dabf1",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "3",
-        "x": 1980,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cfbdd3bc2e2cc549",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "4",
-        "x": 1980,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cf57d2ab39974233",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "5",
-        "x": 1980,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5c3019a6ab1a7fcb",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "6",
-        "x": 1980,
-        "y": 660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5ccf9c34fa440f34",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1980,
-        "y": 740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "65d6f788398262e5",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "0",
-        "x": 2350,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3645c13e6afbf0a7",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "1",
-        "x": 2350,
-        "y": 330,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e37709b533778396",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "2",
-        "x": 2350,
-        "y": 410,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "25cddc7e45899c66",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "3",
-        "x": 2350,
-        "y": 470,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0c757d9a3d72d965",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "4",
-        "x": 2350,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "810817b40850a9d3",
-        "type": "GPIO Read",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": 1,
-        "address": "0x22",
-        "pin": "5",
-        "x": 2350,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "90f58d3f7742fd1e",
         "type": "inject",
         "z": "fce1dd121d74d076",
@@ -122203,16 +122007,14 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 2130,
+        "x": 2210,
         "y": 90,
         "wires": [
             [
-                "65d6f788398262e5",
-                "3645c13e6afbf0a7",
-                "e37709b533778396",
-                "25cddc7e45899c66",
-                "0c757d9a3d72d965",
-                "810817b40850a9d3"
+                "990609fac39b1ad7",
+                "b529b7c3a01d739d",
+                "1a5d24fb71f9e727",
+                "206df6a30758f450"
             ]
         ]
     },
@@ -125105,7 +124907,7 @@
         "wires": [
             [
                 "ac33f5b43d3107db",
-                "28c3b1ef659d7f43"
+                "43c6d945c7853c97"
             ]
         ]
     },
@@ -125234,20 +125036,6 @@
         ]
     },
     {
-        "id": "28c3b1ef659d7f43",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1970,
-        "y": 830,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "0159a3970ca9cef9",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -125300,7 +125088,7 @@
         "wires": [
             [
                 "d860aeb45797d772",
-                "c79336233638369c"
+                "5ff70bff7e4f5ee6"
             ]
         ]
     },
@@ -125429,34 +125217,6 @@
         ]
     },
     {
-        "id": "c79336233638369c",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1970,
-        "y": 1000,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "064727184cdbebce",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1970,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "955481fbb8d9a1cc",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -125508,7 +125268,7 @@
         "wires": [
             [
                 "4eee17482498dfcf",
-                "064727184cdbebce"
+                "d0d7db9be13f7dc7"
             ]
         ]
     },
@@ -125635,20 +125395,6 @@
         ]
     },
     {
-        "id": "7f6818c7c33a3875",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1970,
-        "y": 1080,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "30b35d75067829d8",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -125701,7 +125447,7 @@
         "wires": [
             [
                 "eb3c97ffaceb516e",
-                "7f6818c7c33a3875"
+                "e03205e7598aae26"
             ]
         ]
     },
@@ -125828,20 +125574,6 @@
         ]
     },
     {
-        "id": "cc79faa8cb195084",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1960,
-        "y": 1160,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "96a09f04ae022c41",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -125894,7 +125626,7 @@
         "wires": [
             [
                 "9b7c0f4aabb3c660",
-                "cc79faa8cb195084"
+                "d392c0c75abb8745"
             ]
         ]
     },
@@ -126021,20 +125753,6 @@
         ]
     },
     {
-        "id": "e16731bf585c8dab",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1960,
-        "y": 1240,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "56ed9e81f0d166af",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -126087,7 +125805,7 @@
         "wires": [
             [
                 "e51aab02e8983d87",
-                "e16731bf585c8dab"
+                "cb96663ad81853cf"
             ]
         ]
     },
@@ -126214,20 +125932,6 @@
         ]
     },
     {
-        "id": "9fd89c28af2c096b",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1960,
-        "y": 1320,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "e4e3de482bd63e99",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -126280,7 +125984,7 @@
         "wires": [
             [
                 "a1bfa3b275cb1c09",
-                "9fd89c28af2c096b"
+                "5a4163ad524db4fc"
             ]
         ]
     },
@@ -126407,20 +126111,6 @@
         ]
     },
     {
-        "id": "1bf2e578bc1f7d2a",
-        "type": "GPIO Write",
-        "z": "fce1dd121d74d076",
-        "name": "",
-        "bus": "1",
-        "address": "0x22",
-        "pin": "7",
-        "x": 1950,
-        "y": 1400,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "749045fd6b9df948",
         "type": "ui_switch",
         "z": "fce1dd121d74d076",
@@ -126473,7 +126163,7 @@
         "wires": [
             [
                 "ef5adfa13ff0119b",
-                "1bf2e578bc1f7d2a"
+                "c25fe5e2ba244c0b"
             ]
         ]
     },
@@ -126787,6 +126477,286 @@
             [
                 "3c07b8c8c17895e6"
             ]
+        ]
+    },
+    {
+        "id": "a8f2ae473e9582d5",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "1",
+        "x": 1950,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22138c227ddb8ae7",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "2",
+        "x": 1950,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "485cca23d06ab882",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "3",
+        "x": 1950,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b7e2bd0ba6a5a23",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "4",
+        "x": 1950,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e745e6cbec11f4a0",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "5",
+        "x": 1950,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2aa3c2010347f12b",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "6",
+        "x": 1950,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87a302938dd004da",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "7",
+        "x": 1950,
+        "y": 650,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fe40daf2f6cbdcb",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "8",
+        "x": 1950,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43c6d945c7853c97",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "9",
+        "x": 1950,
+        "y": 830,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0d7db9be13f7dc7",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "10",
+        "x": 1960,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ff70bff7e4f5ee6",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "11",
+        "x": 1960,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e03205e7598aae26",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "12",
+        "x": 1960,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d392c0c75abb8745",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "13",
+        "x": 1960,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb96663ad81853cf",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "14",
+        "x": 1960,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a4163ad524db4fc",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "15",
+        "x": 1960,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c25fe5e2ba244c0b",
+        "type": "i2c IO Write",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "16",
+        "x": 1960,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "990609fac39b1ad7",
+        "type": "i2c IO Read",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "1",
+        "x": 2390,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b529b7c3a01d739d",
+        "type": "i2c IO Read",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "2",
+        "x": 2390,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a5d24fb71f9e727",
+        "type": "i2c IO Read",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": "1",
+        "address": "0x22",
+        "pin": "10",
+        "x": 2390,
+        "y": 370,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "206df6a30758f450",
+        "type": "i2c IO Read",
+        "z": "fce1dd121d74d076",
+        "name": "",
+        "bus": 1,
+        "address": "0x22",
+        "pin": "10",
+        "x": 2390,
+        "y": 410,
+        "wires": [
+            []
         ]
     }
 ]
