@@ -5,15 +5,15 @@ import json
 import argparse
 
 # MPU6050 Registers
-MPU6050_ADDR = 0x69
-MPU6050_PWR_MGMT_1 = 0x6B
-MPU6050_TEMP_OUT_H = 0x41
+MPU6050_ADDR         = 0x69
+MPU6050_PWR_MGMT_1   = 0x6B
+MPU6050_TEMP_OUT_H   = 0x41
 MPU6050_ACCEL_XOUT_H = 0x3B
 MPU6050_ACCEL_YOUT_H = 0x3D
 MPU6050_ACCEL_ZOUT_H = 0x3F
-MPU6050_GYRO_XOUT_H = 0x43
-MPU6050_GYRO_YOUT_H = 0x45
-MPU6050_GYRO_ZOUT_H = 0x47
+MPU6050_GYRO_XOUT_H  = 0x43
+MPU6050_GYRO_YOUT_H  = 0x45
+MPU6050_GYRO_ZOUT_H  = 0x47
 
 # Configuration
 bus = smbus.SMBus(1)  # or 0 for RPi 1
@@ -45,11 +45,13 @@ while True:
     # Calculate angles
     x_angle = math.atan(accel_x / 16384.0) * (180 / math.pi)
     y_angle = math.atan(accel_y / 16384.0) * (180 / math.pi)
+    z_angle = math.atan(accel_z / 16384.0) * (180 / math.pi)
     
     # Prepare data dictionary
     data = {
         "x_angle": x_angle,
         "y_angle": y_angle,
+        "z_angle": z_angle,
         "accel_x_raw": accel_x,
         "accel_y_raw": accel_y,
         "accel_z_raw": accel_z,
