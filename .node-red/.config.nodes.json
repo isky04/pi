@@ -1376,7 +1376,7 @@
         "name": "@isky04/node-red-xl9535",
         "version": "0.0.1",
         "local": true,
-        "user": false,
+        "user": true,
         "nodes": {
             "XL9535-io-ext": {
                 "name": "XL9535-io-ext",

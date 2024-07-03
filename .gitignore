@@ -151,16 +151,19 @@ dist
 .z
 .scre*
 .fzf*
+.npm*
 dotFiles
 _*
 
 
 # pekaway
-pekaway/nrbackups/*
-pekaway/userdata/*
 pekaway/calib*
-pekaway/relay*
+pekaway/dimm*
 pekaway/heat*
+pekaway/nrbackups/*
+pekaway/relay*
+pekaway/temp*
+pekaway/userdata/*
 pekaway/extRelay*
 pekaway/mcpinput*
 .node-red/*.backup

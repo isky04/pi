@@ -222,6 +222,14 @@
         "env": []
     },
     {
+        "id": "1586c2c69a0ae01b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "98cc618a0640cfd0",
         "type": "group",
         "z": "08035fcf5428650d",
@@ -596,8 +604,6 @@
             "1f78a9c366e84c7e",
             "dba3eb11dced800d",
             "7689c36c4b4dc602",
-            "736e6e74dd4099c1",
-            "7625b64c194676df",
             "e1981fc3d5bd5dcd",
             "ea251b4e38d7ad0e",
             "eaf79c9ddd746cfb",
@@ -605,7 +611,6 @@
             "e661be93174a3c06",
             "d793139abfd73467",
             "b5902b221bf2671b",
-            "de3b646ac20702e7",
             "9405f0312e7b530c",
             "295e95de4318d1b8",
             "8d6625f941a1734f",
@@ -644,7 +649,6 @@
             "315d8bb09e74599b",
             "dfdafd0c8a8edc14",
             "e89bd5a498300906",
-            "d10b39878b9bc1a9",
             "009c7f0377cc440b",
             "50fbaebe497307e2",
             "51a5e91b89f901d1",
@@ -662,8 +666,12 @@
             "7d57741dfbc0b8f8",
             "038b93cd0923d376",
             "0622e961c1ef69b4",
-            "e9077e9bbed8743f",
-            "c88a43a7f9090027"
+            "d80864ca0e9ee9ca",
+            "9e42a15367a209da",
+            "af7c100078b02235",
+            "62c01389b84e8091",
+            "c56720ac99949bd3",
+            "48adf541284027f5"
         ],
         "x": 14,
         "y": 59,
@@ -3388,7 +3396,8 @@
                 "e9dcf377ec0880b3",
                 "58df22e0c28bc22a",
                 "f35de2762abdeee0",
-                "6d55d8a67c4a486f"
+                "6d55d8a67c4a486f",
+                "a5b1ecc45d4f987e"
             ]
         ]
     },
@@ -5166,8 +5175,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 1860,
+        "x": 140,
+        "y": 1760,
         "wires": [
             [
                 "1c055936a2e014f3",
@@ -5193,8 +5202,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 450,
-        "y": 1740,
+        "x": 380,
+        "y": 1640,
         "wires": [
             [
                 "ac0f7957fe6cc9e4"
@@ -5212,8 +5221,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1780,
+        "x": 350,
+        "y": 1670,
         "wires": [
             [
                 "9ef973f2cfd5a2ac"
@@ -5231,8 +5240,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1820,
+        "x": 350,
+        "y": 1700,
         "wires": [
             [
                 "0d13cbbba95009dc"
@@ -5250,8 +5259,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1860,
+        "x": 350,
+        "y": 1730,
         "wires": [
             [
                 "2bc92131e105b3d8"
@@ -5269,8 +5278,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1900,
+        "x": 350,
+        "y": 1760,
         "wires": [
             [
                 "f134938ea464ea31"
@@ -5288,8 +5297,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1940,
+        "x": 350,
+        "y": 1790,
         "wires": [
             [
                 "4a466d477623ab89"
@@ -5307,8 +5316,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 1980,
+        "x": 350,
+        "y": 1820,
         "wires": [
             [
                 "0cb19945b6676572"
@@ -5326,8 +5335,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 420,
-        "y": 2020,
+        "x": 350,
+        "y": 1850,
         "wires": [
             [
                 "f9a49e26f32fa4d9"
@@ -5345,8 +5354,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1740,
+        "x": 530,
+        "y": 1640,
         "wires": [
             [
                 "3bef611ac27c4ed4"
@@ -5364,8 +5373,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1780,
+        "x": 530,
+        "y": 1670,
         "wires": [
             [
                 "5e23f61d43b8c56a"
@@ -5383,8 +5392,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1820,
+        "x": 530,
+        "y": 1700,
         "wires": [
             [
                 "cb72631b3282606a"
@@ -5402,8 +5411,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1860,
+        "x": 530,
+        "y": 1730,
         "wires": [
             [
                 "fe0bbd93a9ece46a"
@@ -5421,8 +5430,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1900,
+        "x": 530,
+        "y": 1760,
         "wires": [
             [
                 "19755d460a1db476"
@@ -5440,8 +5449,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1940,
+        "x": 530,
+        "y": 1790,
         "wires": [
             [
                 "c5d24e06df20609e"
@@ -5459,8 +5468,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1980,
+        "x": 530,
+        "y": 1820,
         "wires": [
             [
                 "84f7287a1ce17812"
@@ -5478,8 +5487,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2020,
+        "x": 530,
+        "y": 1850,
         "wires": [
             [
                 "c97946cee763f094"
@@ -5492,8 +5501,8 @@
         "z": "1f780f8f.dbcd5",
         "name": "set global variables for dimmer values and names on boot",
         "info": "",
-        "x": 570,
-        "y": 1700,
+        "x": 500,
+        "y": 1600,
         "wires": []
     },
     {
@@ -5507,8 +5516,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1740,
+        "x": 680,
+        "y": 1640,
         "wires": [
             [
                 "439f988a62781d9b"
@@ -5526,8 +5535,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1780,
+        "x": 680,
+        "y": 1670,
         "wires": [
             [
                 "27e88c5f1b4f7b8f"
@@ -5545,8 +5554,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1820,
+        "x": 680,
+        "y": 1700,
         "wires": [
             [
                 "6ee1990c7bc23253"
@@ -5564,8 +5573,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1860,
+        "x": 680,
+        "y": 1730,
         "wires": [
             [
                 "0e8d5edd11fb430a"
@@ -5583,8 +5592,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1900,
+        "x": 680,
+        "y": 1760,
         "wires": [
             [
                 "beed325372b08af7"
@@ -5602,8 +5611,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1940,
+        "x": 680,
+        "y": 1790,
         "wires": [
             [
                 "c5c0659bee5a566e"
@@ -5621,8 +5630,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 1980,
+        "x": 680,
+        "y": 1820,
         "wires": [
             [
                 "12ebe1bb933fe94a"
@@ -5640,8 +5649,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 780,
-        "y": 2020,
+        "x": 680,
+        "y": 1850,
         "wires": [
             [
                 "31741cc9faf9c7cc"
@@ -5659,8 +5668,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1740,
+        "x": 830,
+        "y": 1640,
         "wires": [
             [
                 "8162b2e36e019a1e"
@@ -5678,8 +5687,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1780,
+        "x": 830,
+        "y": 1670,
         "wires": [
             [
                 "976581f8be965e6a"
@@ -5697,8 +5706,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1820,
+        "x": 830,
+        "y": 1700,
         "wires": [
             [
                 "166539673334fc31"
@@ -5716,8 +5725,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1860,
+        "x": 830,
+        "y": 1730,
         "wires": [
             [
                 "ada5534e827912c9"
@@ -5735,8 +5744,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1900,
+        "x": 830,
+        "y": 1760,
         "wires": [
             [
                 "11f2bc5db5792cae"
@@ -5754,8 +5763,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1940,
+        "x": 830,
+        "y": 1790,
         "wires": [
             [
                 "18220fbc9894788e"
@@ -5773,8 +5782,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 1980,
+        "x": 830,
+        "y": 1820,
         "wires": [
             [
                 "223ffefbbe8f3d72"
@@ -5792,8 +5801,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 2020,
+        "x": 830,
+        "y": 1850,
         "wires": [
             [
                 "3325ea1d31b73cc9"
@@ -5808,8 +5817,8 @@
         "links": [
             "ee045ba769a41128"
         ],
-        "x": 1345,
-        "y": 1740,
+        "x": 1165,
+        "y": 1640,
         "wires": []
     },
     {
@@ -5820,8 +5829,8 @@
         "links": [
             "7916894a389bbd36"
         ],
-        "x": 1347,
-        "y": 1780,
+        "x": 1165,
+        "y": 1670,
         "wires": []
     },
     {
@@ -5832,8 +5841,8 @@
         "links": [
             "7fcbf6231d98df8e"
         ],
-        "x": 1345,
-        "y": 1820,
+        "x": 1165,
+        "y": 1700,
         "wires": []
     },
     {
@@ -5844,8 +5853,8 @@
         "links": [
             "264c1e36b77d07f6"
         ],
-        "x": 1345,
-        "y": 1860,
+        "x": 1165,
+        "y": 1730,
         "wires": []
     },
     {
@@ -5856,8 +5865,8 @@
         "links": [
             "d2e1bd3b20beb5d3"
         ],
-        "x": 1345,
-        "y": 1900,
+        "x": 1165,
+        "y": 1760,
         "wires": []
     },
     {
@@ -5868,8 +5877,8 @@
         "links": [
             "1ec7e2b03700d11d"
         ],
-        "x": 1345,
-        "y": 1940,
+        "x": 1165,
+        "y": 1790,
         "wires": []
     },
     {
@@ -5880,8 +5889,8 @@
         "links": [
             "344ccfe7251b8276"
         ],
-        "x": 1345,
-        "y": 1980,
+        "x": 1165,
+        "y": 1820,
         "wires": []
     },
     {
@@ -5892,8 +5901,8 @@
         "links": [
             "d8546b510132caa3"
         ],
-        "x": 1345,
-        "y": 2020,
+        "x": 1165,
+        "y": 1850,
         "wires": []
     },
     {
@@ -6337,8 +6346,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1170,
-        "y": 1740,
+        "x": 1010,
+        "y": 1640,
         "wires": [
             [
                 "ee271eb64628fc0a"
@@ -6362,8 +6371,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1170,
-        "y": 1780,
+        "x": 1010,
+        "y": 1670,
         "wires": [
             [
                 "c6b55fd009e69ef0"
@@ -6387,8 +6396,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1170,
-        "y": 1820,
+        "x": 1010,
+        "y": 1700,
         "wires": [
             [
                 "325d9614f6237827"
@@ -6412,8 +6421,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 1860,
+        "x": 1020,
+        "y": 1730,
         "wires": [
             [
                 "31f94e298e95c2b4"
@@ -6437,8 +6446,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 1900,
+        "x": 1020,
+        "y": 1760,
         "wires": [
             [
                 "9d8da021cba66085"
@@ -6462,8 +6471,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 1940,
+        "x": 1020,
+        "y": 1790,
         "wires": [
             [
                 "3b589471ad93efe2"
@@ -6487,8 +6496,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 1980,
+        "x": 1020,
+        "y": 1820,
         "wires": [
             [
                 "6ce111f8c4860e01"
@@ -6512,8 +6521,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 2020,
+        "x": 1020,
+        "y": 1850,
         "wires": [
             [
                 "fa4a585a780c2772"
@@ -6537,8 +6546,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 1940,
+        "x": 140,
+        "y": 1840,
         "wires": [
             [
                 "1c055936a2e014f3",
@@ -6559,8 +6568,8 @@
         "z": "1f780f8f.dbcd5",
         "name": "(2nd inject to sync homebridge on boot)",
         "info": "",
-        "x": 950,
-        "y": 1700,
+        "x": 880,
+        "y": 1600,
         "wires": []
     },
     {
@@ -6571,8 +6580,8 @@
         "links": [
             "f5a2124f9c3ff250"
         ],
-        "x": 265,
-        "y": 1820,
+        "x": 195,
+        "y": 1720,
         "wires": [
             [
                 "1c055936a2e014f3",
@@ -6740,8 +6749,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 2060,
+        "x": 360,
+        "y": 1890,
         "wires": [
             [
                 "f8c032b12ad00c5b"
@@ -6765,8 +6774,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 620,
-        "y": 2060,
+        "x": 550,
+        "y": 1890,
         "wires": [
             [
                 "dfd1982f20469c0d"
@@ -6784,8 +6793,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 2060,
+        "x": 730,
+        "y": 1890,
         "wires": [
             []
         ]
@@ -6823,7 +6832,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1610,
-        "y": 1580,
+        "y": 1570,
         "wires": [
             [
                 "bc1aefd81eed7e85"
@@ -6843,7 +6852,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1610,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
                 "a62b83997ca592de"
@@ -6863,7 +6872,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1610,
-        "y": 1660,
+        "y": 1630,
         "wires": [
             [
                 "9cc3e40661c80b7f"
@@ -6883,7 +6892,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1610,
-        "y": 1700,
+        "y": 1660,
         "wires": [
             [
                 "2db14857746e2a4c"
@@ -6903,7 +6912,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1610,
-        "y": 1740,
+        "y": 1690,
         "wires": [
             [
                 "5cffb6cad058bf0d"
@@ -6941,7 +6950,7 @@
         "finalize": "",
         "libs": [],
         "x": 1820,
-        "y": 1580,
+        "y": 1570,
         "wires": [
             [
                 "d369278b4d05c2b5"
@@ -6960,7 +6969,7 @@
         "finalize": "",
         "libs": [],
         "x": 1820,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
                 "d369278b4d05c2b5"
@@ -6979,7 +6988,7 @@
         "finalize": "",
         "libs": [],
         "x": 1820,
-        "y": 1660,
+        "y": 1630,
         "wires": [
             [
                 "d369278b4d05c2b5"
@@ -6998,7 +7007,7 @@
         "finalize": "",
         "libs": [],
         "x": 1820,
-        "y": 1700,
+        "y": 1660,
         "wires": [
             [
                 "d369278b4d05c2b5"
@@ -7017,7 +7026,7 @@
         "finalize": "",
         "libs": [],
         "x": 1820,
-        "y": 1740,
+        "y": 1690,
         "wires": [
             [
                 "d369278b4d05c2b5"
@@ -7615,8 +7624,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 940,
-        "y": 1470,
+        "x": 950,
+        "y": 1460,
         "wires": [
             [
                 "bfa11a2c8211930e"
@@ -7652,7 +7661,7 @@
         "finalize": "",
         "libs": [],
         "x": 1170,
-        "y": 1470,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -7798,7 +7807,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
+        "x": 1210,
         "y": 520,
         "wires": [
             []
@@ -8546,6 +8555,44 @@
                 "bd0138e90f4b6b59",
                 "8029d61c1987fb86"
             ]
+        ]
+    },
+    {
+        "id": "a5b1ecc45d4f987e",
+        "type": "file in",
+        "z": "1f780f8f.dbcd5",
+        "name": "",
+        "filename": "pekaway/calibration_value_z",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 950,
+        "y": 1490,
+        "wires": [
+            [
+                "5e8ec5ebbc76b541"
+            ]
+        ]
+    },
+    {
+        "id": "5e8ec5ebbc76b541",
+        "type": "function",
+        "z": "1f780f8f.dbcd5",
+        "name": "set global",
+        "func": "global.set(\"calibration_value_z\", Number(msg.payload));\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1490,
+        "wires": [
+            []
         ]
     },
     {
@@ -83790,8 +83837,8 @@
         "type": "function",
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
-        "name": "add Offset",
-        "func": "var input = msg.payload;\n\n// get calibration value from global variable and set data\nvar calibration_value = global.get(\"calibration_value_x\") || 0;\nvar calibratedData = input - calibration_value;\n\n// round to 1 decimal place\nvar roundedData = calibratedData.toFixed(1);\nif (Number(roundedData) === 0) {\n    roundedData = \"0.0\";\n}\n\nmsg.payload = parseFloat(roundedData); // parse to number\nreturn msg;",
+        "name": "add Offset X",
+        "func": "var input = msg.payload;\n\n// get calibration value from global variable and set data\nvar calibration_value = global.get(\"calibration_value_x\") || 0;\nvar calibratedData     = input - calibration_value;\n\n\nif(flow.get(\"f_cal\") == true)\n{\n  global.set(\"calibration_value_x\", msg.payload)\n}\n\n// round to 1 decimal place\nvar roundedData = calibratedData.toFixed(1);\nif (Number(roundedData) === 0) \n{\n    roundedData = \"0.0\";\n}\n\nmsg.payload = parseFloat(roundedData); // parse to number\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -83799,7 +83846,7 @@
         "finalize": "",
         "libs": [],
         "x": 1450,
-        "y": 280,
+        "y": 230,
         "wires": [
             [
                 "b834a73edcc9df3a"
@@ -83814,16 +83861,15 @@
         "name": "",
         "property": "payload",
         "action": "mean",
-        "count": "5",
+        "count": "10",
         "round": "2",
         "mult": "single",
         "reduce": false,
-        "x": 1300,
-        "y": 280,
+        "x": 1280,
+        "y": 230,
         "wires": [
             [
-                "f50f27a0bc038b47",
-                "736e6e74dd4099c1"
+                "f50f27a0bc038b47"
             ]
         ]
     },
@@ -83832,8 +83878,8 @@
         "type": "function",
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
-        "name": "add Offset",
-        "func": "var input = msg.payload;\n\n// get calibration value from global variable and set data\nvar calibration_value = global.get(\"calibration_value_y\") || 0;\nvar calibratedData = input - calibration_value;\n\n// round to 1 decimal place\nvar roundedData = calibratedData.toFixed(1);\nif (Number(roundedData) === 0) {\n    roundedData = \"0.0\";\n}\n\nmsg.payload = parseFloat(roundedData); // parse to number\nreturn msg;",
+        "name": "add Offset Y ",
+        "func": "var input = msg.payload;\nvar cal   = flow.get(\"f_cal\");\n\n// get calibration value from global variable and set data\nvar calibration_value = global.get(\"calibration_value_y\") || 0;\nvar calibratedData = input - calibration_value;\n\nif (cal == true)\n{\n  global.set(\"calibration_value_y\", msg.payload)\n}\n// round to 1 decimal place\nvar roundedData = calibratedData.toFixed(1);\nif (Number(roundedData) === 0) {\n    roundedData = \"0.0\";\n}\n\nmsg.payload = parseFloat(roundedData); // parse to number\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -83841,7 +83887,7 @@
         "finalize": "",
         "libs": [],
         "x": 1450,
-        "y": 320,
+        "y": 260,
         "wires": [
             [
                 "4f3b8fba418c2d7d"
@@ -83856,16 +83902,15 @@
         "name": "",
         "property": "payload",
         "action": "mean",
-        "count": "5",
+        "count": "10",
         "round": "2",
         "mult": "single",
         "reduce": false,
-        "x": 1300,
-        "y": 320,
+        "x": 1280,
+        "y": 260,
         "wires": [
             [
-                "e46980325aa122bc",
-                "7625b64c194676df"
+                "e46980325aa122bc"
             ]
         ]
     },
@@ -83886,7 +83931,7 @@
         "templateScope": "local",
         "className": "",
         "x": 2150,
-        "y": 320,
+        "y": 260,
         "wires": [
             []
         ]
@@ -83909,8 +83954,8 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 1850,
-        "y": 400,
+        "x": 1790,
+        "y": 350,
         "wires": []
     },
     {
@@ -83938,51 +83983,9 @@
         "y": 180,
         "wires": [
             [
-                "736e6e74dd4099c1",
-                "7625b64c194676df",
                 "ea251b4e38d7ad0e",
                 "295e95de4318d1b8",
                 "8d6625f941a1734f"
-            ]
-        ]
-    },
-    {
-        "id": "736e6e74dd4099c1",
-        "type": "function",
-        "z": "3739bebe6c778cd3",
-        "g": "32227694b6da15c7",
-        "name": "calibrate X",
-        "func": "let calibrationDatax = context.get(\"calibrationData_x\") || [];\nlet timer = context.get(\"timer\") || null;\n\n//start calibration\nif (msg.topic === \"start_calibration\" && !timer) {\n    calibrationDatax = [];\n    context.set(\"calibrationData_x\", calibrationDatax);\n\n    timer = setTimeout(() => {\n        let sum = calibrationDatax.reduce((a, b) => a + b, 0);\n        let avg = calibrationDatax.length > 0 ? sum / calibrationDatax.length : 0;\n        global.set(\"calibration_value_x\", avg); // save to global variable\n        context.set(\"timer\", null);\n        node.send({ payload: avg });\n    }, 5000); // stop after 5 seconds\n\n    context.set(\"timer\", timer);\n    return;\n}\n\n// get values from sensor\nif (msg.topic === \"x_angle\"&& timer) {\n    let value = parseFloat(msg.payload);\n    if (!isNaN(value)) {\n        calibrationDatax.push(value);\n        context.set(\"calibrationData_x\", calibrationDatax);\n    }\n}\n\nreturn null; // block sending of messages until timer finishes",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1340,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7625b64c194676df",
-        "type": "function",
-        "z": "3739bebe6c778cd3",
-        "g": "32227694b6da15c7",
-        "name": "calibrate Y",
-        "func": "let calibrationData = context.get(\"calibrationData_y\") || [];\nlet timer = context.get(\"timer\") || null;\n\n//start calibration\nif (msg.topic === \"start_calibration\" && !timer) {\n    calibrationData = [];\n    context.set(\"calibrationData_y\", calibrationData);\n\n    timer = setTimeout(() => {\n        let sum = calibrationData.reduce((a, b) => a + b, 0);\n        let avg = calibrationData.length > 0 ? sum / calibrationData.length : 0;\n        global.set(\"calibration_value_y\", avg); // save to global variable\n        context.set(\"timer\", null);\n        node.send({ payload: avg });\n    }, 30000); // stop after 5 seconds\n\n    context.set(\"timer\", timer);\n    return;\n}\n\n// get values from sensor\nif (msg.topic === \"y_angle\" && timer) {\n    let value = parseFloat(msg.payload);\n    if (!isNaN(value)) {\n        calibrationData.push(value);\n        context.set(\"calibrationData_y\", calibrationData);\n    }\n}\n\nreturn null; // block sending of messages until timer finishes",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1340,
-        "y": 200,
-        "wires": [
-            [
-                "de3b646ac20702e7"
             ]
         ]
     },
@@ -84002,7 +84005,7 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 690,
+        "x": 730,
         "y": 100,
         "wires": []
     },
@@ -84012,14 +84015,15 @@
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
         "name": "calibrating...",
-        "func": "msg.payload = \"Calibrating position sensor...\"\ndelete msg.topic\nreturn msg;",
+        "func": "msg.payload = \"Calibrating position sensor...\";\nflow.set(\"f_cal\", true);\ndelete msg.topic;\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 140,
+        "x": 420,
+        "y": 170,
         "wires": [
             [
                 "e1981fc3d5bd5dcd"
@@ -84043,7 +84047,7 @@
         "templateScope": "local",
         "className": "",
         "x": 2150,
-        "y": 280,
+        "y": 230,
         "wires": [
             []
         ]
@@ -84066,8 +84070,8 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 1850,
-        "y": 360,
+        "x": 1790,
+        "y": 160,
         "wires": []
     },
     {
@@ -84133,32 +84137,10 @@
                 "02a45f9f766e8ed7"
             ],
             [
-                "c88a43a7f9090027"
+                "af7c100078b02235"
             ],
             [
                 "114d553e0f28d537"
-            ]
-        ]
-    },
-    {
-        "id": "de3b646ac20702e7",
-        "type": "function",
-        "z": "3739bebe6c778cd3",
-        "g": "32227694b6da15c7",
-        "name": "kill then => time 20",
-        "func": "msg.kill = \"SIGKILL\";\nnode.send(msg);\n\nsetTimeout(function () {\n    delete msg.kill;\n    msg.payload = \"--time 20\";\n    node.send(msg);\n}, 500);  // milliseconds delay",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1570,
-        "y": 200,
-        "wires": [
-            [
-                "e661be93174a3c06",
-                "d10b39878b9bc1a9"
             ]
         ]
     },
@@ -84196,7 +84178,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
+        "x": 450,
         "y": 200,
         "wires": [
             [
@@ -84209,9 +84191,9 @@
         "type": "delay",
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
-        "name": "5.3s",
+        "name": "2s",
         "pauseType": "delay",
-        "timeout": "5.3",
+        "timeout": "2",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -84222,11 +84204,12 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 390,
-        "y": 100,
+        "x": 400,
+        "y": 130,
         "wires": [
             [
-                "ef2c0086391012ae"
+                "ef2c0086391012ae",
+                "dfdafd0c8a8edc14"
             ]
         ]
     },
@@ -84236,13 +84219,14 @@
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
         "name": "done",
-        "func": "msg.payload = \"Calibration done\"\ndelete msg.topic\nreturn msg;",
+        "func": "msg.payload = \"Calibration done\";\nflow.set(\"f_cal\", false);\ndelete msg.topic;\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 550,
         "y": 100,
         "wires": [
             [
@@ -84607,7 +84591,7 @@
         "finalize": "",
         "libs": [],
         "x": 240,
-        "y": 320,
+        "y": 330,
         "wires": [
             [
                 "339615045b1bfa7f"
@@ -84650,7 +84634,7 @@
         "property": "payload",
         "name": "",
         "x": 1770,
-        "y": 280,
+        "y": 230,
         "wires": [
             [
                 "4c75eab53d356616"
@@ -84671,7 +84655,7 @@
         "finalize": "",
         "libs": [],
         "x": 1620,
-        "y": 320,
+        "y": 260,
         "wires": [
             [
                 "eb2be90032ddbb37",
@@ -84693,7 +84677,7 @@
         "finalize": "",
         "libs": [],
         "x": 1940,
-        "y": 320,
+        "y": 260,
         "wires": [
             [
                 "1f78a9c366e84c7e"
@@ -84714,7 +84698,7 @@
         "property": "payload",
         "name": "",
         "x": 1770,
-        "y": 320,
+        "y": 260,
         "wires": [
             [
                 "5fc2a31f4d9810ef"
@@ -84735,7 +84719,7 @@
         "finalize": "",
         "libs": [],
         "x": 1620,
-        "y": 280,
+        "y": 230,
         "wires": [
             [
                 "eb0e4d09392a8a43",
@@ -84757,7 +84741,7 @@
         "finalize": "",
         "libs": [],
         "x": 1940,
-        "y": 280,
+        "y": 230,
         "wires": [
             [
                 "eaf79c9ddd746cfb"
@@ -84914,8 +84898,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
-        "y": 360,
+        "x": 1300,
+        "y": 330,
         "wires": [
             []
         ]
@@ -84932,8 +84916,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 2140,
-        "y": 160,
+        "x": 1210,
+        "y": 100,
         "wires": [
             []
         ]
@@ -84944,21 +84928,24 @@
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
         "name": "save calibration",
-        "func": "let newMsg = {}\nmsg.payload = global.get(\"calibration_value_x\")\nnewMsg.payload = global.get(\"calibration_value_y\")\nreturn [msg, newMsg];",
-        "outputs": 2,
+        "func": "let yAchse = {};\nlet zAchse = {};\n\nmsg.payload    = global.get(\"calibration_value_x\");\nyAchse.payload = global.get(\"calibration_value_y\");\nzAchse.payload = global.get(\"calibration_value_z\");\n\nreturn [msg, yAchse, zAchse];",
+        "outputs": 3,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1920,
-        "y": 200,
+        "x": 970,
+        "y": 130,
         "wires": [
             [
                 "315d8bb09e74599b"
             ],
             [
                 "e89bd5a498300906"
+            ],
+            [
+                "d80864ca0e9ee9ca"
             ]
         ]
     },
@@ -84974,36 +84961,10 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 2140,
-        "y": 200,
+        "x": 1210,
+        "y": 130,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "d10b39878b9bc1a9",
-        "type": "delay",
-        "z": "3739bebe6c778cd3",
-        "g": "32227694b6da15c7",
-        "name": "2s",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1770,
-        "y": 200,
-        "wires": [
-            [
-                "dfdafd0c8a8edc14"
-            ]
         ]
     },
     {
@@ -85676,39 +85637,113 @@
         ]
     },
     {
-        "id": "e9077e9bbed8743f",
-        "type": "debug",
+        "id": "d80864ca0e9ee9ca",
+        "type": "file",
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
-        "name": "debug 199",
-        "active": true,
-        "tosidebar": false,
-        "console": true,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 2170,
-        "y": 400,
-        "wires": []
+        "name": "",
+        "filename": "pekaway/calibration_value_z",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1210,
+        "y": 160,
+        "wires": [
+            []
+        ]
     },
     {
-        "id": "c88a43a7f9090027",
-        "type": "debug",
+        "id": "9e42a15367a209da",
+        "type": "function",
         "z": "3739bebe6c778cd3",
         "g": "32227694b6da15c7",
-        "name": "debug 210",
-        "active": true,
-        "tosidebar": false,
-        "console": true,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1310,
-        "y": 400,
+        "name": "add Offset Z",
+        "func": "var input = msg.payload;\nvar cal   = flow.get(\"f_cal\");\n\n// get calibration value from global variable and set data\nvar calibration_value = global.get(\"calibration_value_z\") || 0;\nvar calibratedData = input - calibration_value;\n\nif (cal != false)\n{\n  global.set(\"calibration_value_z\", msg.payload)\n}\n// round to 1 decimal place\nvar roundedData = calibratedData.toFixed(1);\nif (Number(roundedData) === 0) {\n    roundedData = \"0.0\";\n}\n\nmsg.payload = parseFloat(roundedData); // parse to number\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 290,
+        "wires": [
+            [
+                "62c01389b84e8091"
+            ]
+        ]
+    },
+    {
+        "id": "af7c100078b02235",
+        "type": "smooth",
+        "z": "3739bebe6c778cd3",
+        "g": "32227694b6da15c7",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "10",
+        "round": "2",
+        "mult": "single",
+        "reduce": false,
+        "x": 1280,
+        "y": 290,
+        "wires": [
+            [
+                "9e42a15367a209da"
+            ]
+        ]
+    },
+    {
+        "id": "62c01389b84e8091",
+        "type": "function",
+        "z": "3739bebe6c778cd3",
+        "g": "32227694b6da15c7",
+        "name": "save global",
+        "func": "msg.payload = Number(msg.payload.toFixed(2))*-1;\n\nglobal.set(\"z_angle\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 290,
+        "wires": [
+            [
+                "c56720ac99949bd3"
+            ]
+        ]
+    },
+    {
+        "id": "c56720ac99949bd3",
+        "type": "range",
+        "z": "3739bebe6c778cd3",
+        "g": "32227694b6da15c7",
+        "minin": "-45",
+        "maxin": "45",
+        "minout": "-9",
+        "maxout": "9",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 1770,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48adf541284027f5",
+        "type": "comment",
+        "z": "3739bebe6c778cd3",
+        "g": "32227694b6da15c7",
+        "name": "und Cal speichern",
+        "info": "",
+        "x": 1470,
+        "y": 180,
         "wires": []
     },
     {
@@ -126762,5 +126797,15 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "7b253401bd0c6710",
+        "type": "comment",
+        "z": "1586c2c69a0ae01b",
+        "name": "Variablen definition",
+        "info": "context    innerhalb der node\nflow       innerhab des Flow (Tab)\nglobal     überall\n\nvar f_test = flow.get(\"f_test\") || 0; wird mit 0 initialisiert wenn nicht gesetzt\n\n\nlet msg = {}; objekt definition\n\nmsg.payload = f_test\n\nreturn msg;   <- Rückgabeweret der Funtion>\n\nreturn [msg, msg2, msg3];  < 3 rückgabewerte auf 3 ausgänge verteilt>",
+        "x": 200,
+        "y": 80,
+        "wires": []
     }
 ]
